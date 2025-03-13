@@ -1,7 +1,7 @@
 # MSP-SAHAV
 Marine Spatial Planning for Puducherry, India
 
-##GIS Website Template
+## GIS Website Template
 
 This repository provides a template for hosting GIS layers using Leaflet and GeoServer. It allows users to easily add WMS and WFS layers and customize their own GIS applications.
 

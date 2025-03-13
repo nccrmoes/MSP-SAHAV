@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <link rel="stylesheet" href="./css/pdtheme.css">
+    <script src="./js/leaflet/L.Geoserver.js"></script>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo">       
+            <img src="./img/P-L@4x.png" class="logotitle" alt="Logo1" />
+        </div>       
+    </div>
+    <div id="map" class="map-container"></div>
+    <div id="divutils">
+        <div class="layersListSideDiv" id="popup">
+            <div class="popup-header">
+                <span id="layerstitle">Layers</span>
+                <i class="fas fa-times close-btn" onclick="closeLayersList()"></i>
+            </div>
+            <div class="popup-body">
+                <div id="divLayers">
+                    <div id="divlayersList"></div>
+                </div>
+            </div>
+        </div>
+        <div class="legendsidediv ">
+            <div class="popup-header">
+                <span id="legendtitle">Legend</span>
+                <i class="fas fa-times close-btn" onclick="closeLegend()"></i>
+            </div>
+            <div class="popup-body">
+                <div id="divLayers">
+                    <div id="divLegend"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="search-container">
+        <i class="fas fa-search"></i>
+        <input type="text" class="search-input" placeholder="Search">
+    </div>
+    <div class="sidebar">
+        <div class="toggle-btn" onclick="toggleSidebar()">
+            <i class="fas fa-angle-left"></i>
+        </div>
+        <ul>
+            <li data-title="Data Repository" data-menu="dataRepository" onclick="toggleSubmenu(event);"><i class="fas fa-database"></i> <span>Data Repository</span></li>
+            <li data-title="Status Indicators" data-menu="status indicators" onclick="toggleSubmenu(event);"><i class="fas fa-chart-line"></i> <span>Status Indicators</span></li>
+            <li data-menu="conflicts" data-title="Conflicts & Compatibilities" onclick="toggleSubmenu(event);"><i class="fas fa-exclamation-circle"></i> <span>Conflicts & Compatibilities</span></li>
+            <li data-title="Services MoES" data-menu="services" onclick="toggleSubmenu(event);"><i class="fas fa-cogs"></i> <span>Services MoES</span></li>
+            <li><i class="fas fa-info-circle" data-title="About"></i> <span>About</span></li>
+            <li><i class="fas fa-comments" data-title="Feedback"></i> <span>Feedback</span></li>
+        </ul>
+    </div>
+    <div id="submenu_holder" class="submenu-holder">
+        <div class="submenu" id="submenu"></div>
+    </div>
+
+
+    <div class="map-widget">
+        <div class="map-tool" data-action="openLayersList">
+            <i class="fas fa-layer-group"></i>
+            <span class="tool-title">Layers</span>
+        </div>
+        <div class="map-tool" data-action="openLegend">
+            <i class="fas fa-list"></i>
+            <span class="tool-title">Legend</span>
+        </div>
+        <div class="map-tool" data-action="openSearch">
+            <i class="fas fa-search"></i>
+            <span class="tool-title">Search</span>
+        </div>      
+        <div class="map-tool more" onclick='toggleBubbleMenu();'>
+            <i class="fas fa-ellipsis-v"></i>
+            <span class="tool-title">More</span>
+        </div>
+    </div>
+    <div class="bubble-menu" id="bubbleMenu">
+        <div class="bubble-item">
+            <i class="fas fa-ruler"></i>
+            <span>Measure</span>
+        </div>
+        <div class="bubble-item">
+            <i class="fas fa-map"></i>
+            <span>Basemaps</span>
+        </div>       
+        <div class="bubble-item">
+            <i class="fas fa-print"></i>
+            <span>Print</span>
+        </div>       
+    </div>
+
+    <div id="narration" class="closed">
+        <div class="sidebar-handle">
+            <span class="vertical-text">INFO</span>
+        </div>
+        <div id="contents" class="contentsDiv">           
+            <div id="container2" class="image-container">
+                <p class="chapter-header" style="line-height: 26px;"></p>
+                <hr />               
+                <div id="div_charts" class="ocean_container" style="display:none;">
+                   <input type="text" id="datepicker" data-date-format="yyyy-mm-dd" width="100px" />
+                    <input id="btnsumbit" value="Sumbit" class="btn btn-primary" style="width:120px" /><br />
+                    <input type="hidden" id="tblname" name="tblname" value="">
+                    <div id="divchart_currSpeed" class="chartcls"></div><br />
+                    <div id="divchart_currDir" class="chartcls"></div><br />
+                    <div id="divchart_SE" class="chartcls"></div>
+                </div>
+                <div class="description" style="padding-bottom:0">
+                    <p id="contentsubh"></p>
+                    <p id="contentpara"></p>                  
+                    <div id="divcharts" class="chartcls"></div><br />
+                    <div id="divcharts2" class="chartcls"></div><br />
+                    <div id="divcharts3" class="chartcls"></div><br />
+                    <div id="divcharts4" class="chartcls"></div>
+                </div>   
+            </div>
+        </div>
+    </div>   
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script src="https://code.highcharts.com/modules/cylinder.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="https://code.highcharts.com/modules/annotations.js"></script>
+    <script src="./js/scripts/rightside.js"></script>
+    <script src="./js/scripts/common.js"></script>
+    <script src="./js/scripts/customutils.js"></script>
+    <script src="./js/scripts/charts.js"></script>
+    <script src="./js/scripts/loadmaps.js"></script>
+    <script src="./js/scripts/main.js"></script>
+</body>
+</html>

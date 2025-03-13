@@ -1,0 +1,43 @@
+﻿[
+  {
+    "Number": "01",
+    "Name": "Environment",
+    "Children": [
+      {
+        "Number": "geomorph",
+        "service": "MSPudhu:Geomorphology_Clipped",
+        "Name": "Geomorphology"
+      },
+      {
+        "Number": "1",
+        "service": "MSPudhu:Marine_Outfall",
+        "Name": "Marine_Outfall"
+      },
+      {
+        "Number": "2",
+        "service": "MSPudhu:WQI-Status",
+        "Name": "Water_Quality_Index"
+      },
+      {
+        "Number": "3",
+        "service": "MSPudhu:Building_Footprint",
+        "Name": "Building_Footprint"
+      },
+      {
+        "Number": "5",
+        "service": "MSPudhu:Multi_Hazard_Line",
+        "Name": "Multi_Hazard_Line"
+      },
+      {
+        "Number": "6",
+        "service": "MSPudhu:Tsunami_Water_Level",
+        "Name": "Tsunami_Water_Level"
+      },
+      {
+        "Number": "7",
+        "service": "MSPudhu:Chlorophyll Concentration",
+        "Name": "Chlorophyll Concentration"
+      }
+    ]
+  }
+]

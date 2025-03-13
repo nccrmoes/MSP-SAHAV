@@ -1,0 +1,33 @@
+﻿[
+  {
+    "Number": "01",
+    "Name": "Ecology vs Human Activities",
+    "Children": [
+      {
+        "Number": "0",
+        "service": "MSPudhu:District_Boundary",
+        "Name": "District Boundary"
+      },
+      {
+        "Number": "1",
+        "service": "MSPudhu:Mangrove_BoatingConflict",
+        "Name": "Mangrove_BoatingConflict"
+      },
+      {
+        "Number": "2",
+        "service": "MSPudhu:Mangrove",
+        "Name": "Mangroves"
+      },
+      {
+        "Number": "3",
+        "service": "MSPudhu:Crab_locations",
+        "Name": "Crab Locations"
+      },
+      {
+        "Number": "3",
+        "service": "MSPudhu:Tourism_Activity",
+        "Name": "Tourism Activity"
+      }
+    ]
+  }
+]

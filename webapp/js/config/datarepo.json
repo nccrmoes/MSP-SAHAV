@@ -1,0 +1,183 @@
+﻿{
+  "dataRepository": [
+    {
+      "category": "Boundaries",
+      "items": []     
+    },
+    {
+      "category": "LULC",
+      "items": [       
+      ]
+    },
+    {
+      "category": "Water Resources",
+      "items": [        
+      ]
+    },
+    {
+      "category": "Environment",
+      "items": [
+        {
+          "name": "Marine Pollution",
+          "icon": "fas fa-water"
+        },
+        {
+          "name": "Geomorphology",
+          "icon": "fas fa-water"
+        },
+        {
+          "name": "Precipitation",
+          "icon": "fas fa-water"
+        },
+        {
+          "name": "Humidity",
+          "icon": "fas fa-water"
+        },
+        {
+          "name": "Airtemperature",
+          "icon": "fas fa-water"
+        },
+        {
+          "name": "Wind Speed",
+          "icon": "fas fa-water"
+        },
+        {
+          "name": "Cloud Cover",
+          "icon": "fas fa-water"
+        },
+        {
+          "name": "Pressure",
+          "icon": "fas fa-water"
+        }
+
+      ]
+    },
+    {
+      "category": "Ecology",
+      "items": [
+        {
+          "name": "Mangroves",
+          "icon": "fas fa-water"
+        },
+        {
+          "name": "Coral Reefs",
+          "icon": "fas fa-water"
+        },
+        {
+          "name": "Biodiversity Hotspots",
+          "icon": "fas fa-water"
+        },
+        {
+          "name": "Sandy Area",
+          "icon": "fas fa-water"
+        },
+        {
+          "name": "Fish Potential Sites",
+          "icon": "fas fa-water"
+        },
+        {
+          "name": "Biological Production Hotspots",
+          "icon": "fas fa-water"
+        }
+      ]
+    },
+    {
+      "category": "Human Activities",
+      "items": [
+        {
+          "name": "Coastal Protection Structures"
+        },
+        {
+          "name": "Infrastructures"
+        },
+        {
+          "name": "Archeological Sites"
+        }
+      ]
+    },
+    {
+      "category": "Socio Economic",
+      "items": [
+        {
+          "name": "Coastal Aquaculture"
+        },
+        {
+          "name": "Surface Boat Sports"
+        },
+        {
+          "name": "Scuba Diving"
+        }
+      ]
+    },
+    {
+      "category": "Coastal Inundation Risk",
+      "items": [        
+      ]
+    }
+  ],
+  "status indicators": [
+    {
+      "category": "Ecological",
+      "items": [
+        {
+          "name": "Water Quality"
+        },
+        {
+          "name": "Mangroves Status"
+        }
+      ]
+    },
+    {
+      "category": "Economic",
+      "items": [
+        {
+          "name": "Tourism"
+        },
+        {
+          "name": "Fisheries"
+        }
+      ]
+    },
+    {
+      "category": "Marine Outfall",
+      "items": []
+    }
+  ],
+  "conflicts": [
+    {
+      "category": "Field Photos",
+      "items": []
+    },
+    {
+      "category": "Ecology/Human Activities",
+      "items": []
+    },
+    {
+      "category": "Tourism/Shoreline",
+      "items": []
+    },
+    {
+      "category": "Fisheries/Tourism",
+      "items": []
+    }
+  ],
+  "services": [
+    {
+      "category": "Vulnerability",
+      "items": [ ]
+    },
+    {
+      "category": "IMD Services",
+      "items": [ ]
+    },
+    {
+      "category": "INCOIS Services",
+      "items": [ ]
+    },
+    {
+      "category": "NCMRWF Services",
+      "items": [ ]
+    }
+  ]
+
+}

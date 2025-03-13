@@ -1,0 +1,198 @@
+﻿[
+  {
+    "Number": "01",
+    "Name": "Infrastructure",
+    "Children": [
+      {
+        "Number": "DB",
+        "service": "MSPudhu:District_Boundary",
+        "Name": "District_Boundary"
+      },
+      {
+        "Number": "1",
+        "service": "MSPudhu:Puducherry_Aqueduct_Locations",
+        "Name": "Aqueduct_Locations"
+      },
+      {
+        "Number": "2",
+        "service": "MSPudhu:Anganwadi_Balawadi_Centres",
+        "Name": "Anganwadi_Balawadi_Centres"
+      },
+      {
+        "Number": "3",
+        "service": "MSPudhu:Puducherry_Ashram",
+        "Name": "Ashram"
+      },
+      {
+        "Number": "4",
+        "service": "MSPudhu:Banks",
+        "Name": "Banks"
+      },
+      {
+        "Number": "6",
+        "service": "MSPudhu:Bus_Stations",
+        "Name": "Bus_Stations"
+      },
+      {
+        "Number": "06",
+        "service": "MSPudhu:Building_Footprint",
+        "Name": "Building_Footprint"
+      },
+      {
+        "Number": "7",
+        "service": "MSPudhu:Dams",
+        "Name": "Dams"
+      },
+      {
+        "Number": "8",
+        "service": "MSPudhu:Cremation_Ground",
+        "Name": "Cremation_Ground"
+      },
+      {
+        "Number": "9",
+        "service": "MSPudhu:Divisional_Fire_Office",
+        "Name": "Divisional_Fire_Office"
+      },
+      {
+        "Number": "10",
+        "service": "MSPudhu:Government_Quarter",
+        "Name": "Government_Quarter"
+      },
+      {
+        "Number": "11",
+        "service": "MSPudhu:Govt_Office",
+        "Name": "Govt_Office"
+      },
+      {
+        "Number": "12",
+        "service": "MSPudhu:Grave",
+        "Name": "Graves"
+      },
+      {
+        "Number": "13",
+        "service": "MSPudhu:GraveYard_Boundary",
+        "Name": "GraveYard_Boundary"
+      },
+      {
+        "Number": "14",
+        "service": "MSPudhu:Helipad_Locations",
+        "Name": "Helipad_Locations"
+      },
+      {
+        "Number": "15",
+        "service": "MSPudhu:Industry",
+        "Name": "Industry"
+      },
+      {
+        "Number": "16",
+        "service": "MSPudhu:Major_Hazardous_Industry",
+        "Name": "Major_Hazardous_Industry"
+      },
+      {
+        "Number": "17",
+        "service": "MSPudhu:Major_Landmarks",
+        "Name": "Major_Landmarks"
+      },
+      {
+        "Number": "18",
+        "service": "MSPudhu:Major_Road_Network",
+        "Name": "Major_Road_Network"
+      },
+      {
+        "Number": "19",
+        "service": "MSPudhu:Open_Drain",
+        "Name": "Open_Drain"
+      },
+      {
+        "Number": "20",
+        "service": "MSPudhu:OverHead_Tanks",
+        "Name": "OverHead_Tanks"
+      },
+      {
+        "Number": "21",
+        "service": "MSPudhu:Park_Area",
+        "Name": "Park_Area"
+      },
+      {
+        "Number": "22",
+        "service": "MSPudhu:Playground_Area",
+        "Name": "Playground_Area"
+      },
+      {
+        "Number": "23",
+        "service": "MSPudhu:Police_Stations",
+        "Name": "Police_Stations"
+      },
+      {
+        "Number": "24",
+        "service": "MSPudhu:Power_Mainline",
+        "Name": "Power_Mainline"
+      },
+      {
+        "Number": "25",
+        "service": "MSPudhu:Pump_House_Area",
+        "Name": "Pump_House_Area"
+      },
+      {
+        "Number": "26",
+        "service": "MSPudhu:Rail_Bridge",
+        "Name": "Rail_Bridge"
+      },
+      {
+        "Number": "27",
+        "service": "MSPudhu:Rail_Broadgauge",
+        "Name": "Rail_Broadgauge"
+      },
+      {
+        "Number": "28",
+        "service": "MSPudhu:Rail_Culvert",
+        "Name": "Rail_Culvert"
+      },
+      {
+        "Number": "29",
+        "service": "MSPudhu:Railway_Station",
+        "Name": "Railway_Station"
+      },
+      {
+        "Number": "30",
+        "service": "MSPudhu:Religious_Place",
+        "Name": "Religious_Place"
+      },
+      {
+        "Number": "31",
+        "service": "MSPudhu:Road_Bridges",
+        "Name": "Road_Bridges"
+      },
+      {
+        "Number": "32",
+        "service": "MSPudhu:Road_Network",
+        "Name": "Road_Network"
+      },
+      {
+        "Number": "33",
+        "service": "MSPudhu:Stadium_Locations",
+        "Name": "Stadium_Locations"
+      },
+      {
+        "Number": "34",
+        "service": "MSPudhu:Substation_Locations",
+        "Name": "Substation_Locations"
+      },
+      {
+        "Number": "35",
+        "service": "MSPudhu:Traffic_Signal_Locations",
+        "Name": "Traffic_Signal_Locations"
+      },
+      {
+        "Number": "36",
+        "service": "MSPudhu:Veterinary_Hospitals",
+        "Name": "Veterinary_Hospitals"
+      },
+      {
+        "Number": "37",
+        "service": "MSPudhu:230_110_kV_PowerLine",
+        "Name": "230_110_kV_PowerLine"
+      }
+    ]
+  }
+]

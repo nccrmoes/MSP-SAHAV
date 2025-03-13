@@ -1,0 +1,374 @@
+﻿{
+  "Boundaries": {
+    "data": [ "01" ],
+    "key": "Boundaries",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Boundaries",
+    "center": [ 11.9, 79.83 ],
+    "zoom": 12,
+    "about": "Puducherry is a Union Territory of India. Historically known as Pondicherry, the territory changed its official name to Puducherry in September 2006 which signifies new settlement or new town. Puducherry lies in the southern part of the Indian Peninsular. The Union Territory of Puducherry is extending over an area of 490 Sq.Kms. The U.T of Puducherry consists of two revenue districts viz., Puducherry District comprising of Puducherry, Mahe and Yanam regions and Karaikal District comprising of Karaikal region. Puducherry region is the largest urban agglomeration of all the three regions, occupies an area of 294 km2, lies on the east-coast of southern India, and consists of 12 scattered areas lying in between 11° 46’ and 12° 30’ of north latitude and between 79° 36’ and 79° 53’ of east longitude. Yanam region is lies in the east of Southern India, an area of 8.76 km2 and Mahe region is lies in the Western coast of southern India, an area of 30 km2. All four regions of Puducherry U.T. are located in the coastal region.<br/><br/>There are 5 Municipalities, 10 Commune Panchayats, 8 Taluks and 3 Community Development Blocks. There are 129 Revenue villages (Puducherry -81, Karaikal -37, Mahe -5 and Yanam -6). Puducherry and Karaikal regions are classified into both urban and rural areas whereas entire Mahe and Yanam regions are classified as urban area. Five rivers in Puducherry region, seven in Karaikal, two in Mahe and one in Yanam drain into the sea, but none originates within the territory. Fishermen, in 39 marine fishing villages and 11 inland fishing villages are actively engaged in fishing. The Puducherry region has as interesting cross cultural history and its built form lends a unique identity to the city. The old part of Pondicherry is known as the Boulevard Town since it is bounded by four boulevards that constituted the outer limits of the city’s fortification. The Boulevard Town presents two distinct architectural styles in the Tamil and French quarters, which are separated by a canal and unified by a rectilinear grid plan. The four regions of the Union Territory have a coast line of 45 km.",
+    "chapterheader": "The Union Territory of India – Puducherry Region"
+  },
+  "LULC": {
+    "data": [ "lulc" ],
+    "key": "Lulc",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Land Use Land Cover",
+    "center": [ 11.95, 79.8 ],
+    "zoom": 12,
+    "about": "",
+    "chapterheader": ""
+  },
+  "Water Resources": {
+    "data": [ "01" ],
+    "key": "Water Resources",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Water Resources",
+    "center": [ 11.92, 79.82 ],
+    "zoom": 12,
+    "about": "",
+    "chapterheader": ""
+  },
+  "Water Quality": {
+    "data": [ "01" ],
+    "key": "District_Boundary",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Water Quality",
+    "center": [ 11.912, 79.86 ],
+    "zoom": 10,
+    "otherfunctions": {
+      "name": "loadWaterquality",
+      "params": [ "data", "tree" ]
+    },
+    "about": "The water quality can be monitored/analysed through the live Buoy (Buoy ID: 16600) deployed on Puducherry region. This buoy holds sensors that are our real-time eyes on the water. They transmit the data on considering the water-quality parameters such as Wind Speed, Wind Direction, Air Temperature, Humidity, Air Pressure, Water Temperature, Salinity, Dissolved Oxygen, pH, Turbidity, Chlorophyll, Phycoerythrin, Water Speed and Water Direction. These transmitted data can provide real-time information on current sea conditions and may increase accuracy for storm track and storm surge inundation models."
+  }, 
+  "Marine Pollution": {
+    "data": [ "1" ],
+    "key": "",
+    "title": "Marine_Outfall",
+    "jsonpath": "Environment.json",
+    "center": [ 11.95, 79.86 ],
+    "zoom": 11,
+    "about": "Marine litter data acquisition was acquired through “SSagar” app on beaches of Puducherry region such as Gandhi beach, Karaikal beach, Kilinjamedu beach and Auroville beach. Litters such as plastics, glass bottles, food wrappers, metal objects, slippers, papers and food stuffs were found along the beach. Majority of the litter types were various forms (bottles, caps, ropes, food wrappers, etc.) and types of plastics (polystyrene, polypropylene, polyethylene, etc.). Fishing nets and ropes were found in more numbers. Around 9.3 tons of litters were collected in total over the surveyed area. <br/><br/>A marine outfall is a pipeline or tunnel that discharges municipal or industrial wastewater, storm water, combined sewer overflows, cooling water, or brine effluents from water desalination plants to the sea. The points on the map depicts the two marine outfall locations with the inclusion of details on seven metals viz., cadmium, copper, mercury, zinc, lead, arsenic, chromium and pesticide, monocrotophos and other parameters.<br/><br/>Source: National Centre for Coastal Research (NCCR), MoES.",
+    "chapterheader": "Marine Pollution"
+  },
+  "Geomorphology": {
+    "data": [ "geomorph" ],
+    "key": "Geomorphology",
+    "jsonpath": "Environment.json",
+    "title": "Geomorphology",
+    "center": [ 11.91, 79.78 ],
+    "zoom": 12,
+    "about": "The map shows the geomorphologic analysis of the development of topographic and bathymetric characteristics on the Puducherry region that were caused by physical, chemical, or biological processes. The variation in the image characteristics like tone, texture, pattern etc. was used to identify various geomorphology landforms.  They are: the abandoned quarry, the beach, the beach ridge, the channel bar, the channel island, the deltaic plain, the creek network, the flood plain, the gullied land, the mangrove swamp, the Palaeo distributary, the pediment, the tidal flat, the tidal inlet, the WatBod river, etc.<br/><br/>Source: Geological Survey of India-Bhukosh<br/><i>www.bluehabitats.org </i>",
+    "chapterheader": "Geomorphology"
+  },
+  "Precipitation": {
+    "data": [ "01" ],
+    "key": "District_Boundary",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Precipitation",
+    "otherfunctions": {
+        "name": "loadWeather",
+        "params": ["data","title","tree"]
+    },  
+    "about": "Precipitation is the product of the condensation of atmospheric water vapor that falls under gravitational pull from clouds. In simple, Precipitation is any liquid or frozen water that forms in the atmosphere and falls back to the earth. The graph depicts the precipitation data from 2010 to 2022.<br/><br/>Source: National Centre for Medium range Weather forcasting (NCMRWF), MoES"
+  },
+  "Humidity": {
+    "data": [ "01" ],
+    "key": "District_Boundary",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Humidity",
+    "otherfunctions": {
+        "name": "loadWeather",
+        "params": ["data","title","tree"]
+    }, 
+    "about": "Humidity is a measure of the amount of water vapour in the air. Relative humidity measures the amount of water in the air in relation to the maximum amount of water vapour (moisture). The higher the temperature, the more water vapour the air can hold."
+  },
+  "Airtemperature": {
+    "data": [ "01" ],
+    "key": "District_Boundary",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Airtemperature",
+    "otherfunctions": {
+        "name": "loadWeather",
+        "params": ["data","title","tree"]
+    }, 
+    "about": "The temperature of the air is a measure of how quickly the molecules are moving. The more energy of motion the molecules have, the higher the temperature you feel in the air. It is the most commonly considered weather parameter and measured in degrees Celsius (°C). The graph depicts the Air temperature of the Puducherry region from 2010 to 2022. <br/><br/>Wind speed is a fundamental atmospheric quantity caused by air moving from high to low pressure, usually due to changes in temperature. It affects the  weather forecasting, aviation and maritime operations, construction projects, growth and metabolism rate of many plant species, and has countless other implications. The graph depicts the Wind speed of the Puducherry region from 2010 to 2022. <br/><br/> Source: Indian Meteorological Department, Ministry of Earth Sciences, Government of India"
+  },
+  "Cloud Cover": {
+    "data": [ "01" ],
+    "key": "District_Boundary",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Cloud Cover",
+    "otherfunctions": {
+        "name": "loadWeather",
+        "params": ["data","title","tree"]
+    }, 
+    "about": "Cloud cover (also known as cloudiness or cloud amount) refers to the fraction of the sky obscured by clouds on average when observed from a particular location. Okta is the usual unit for measurement of the cloud cover. The cloud cover is correlated to the sunshine duration as the least cloudy locales are the sunniest ones while the cloudiest areas are the least sunny places, as clouds can block sunlight, especially on sunrise and sunset where sunlight is already limited. The graph depicts the cloud cover on the Puducherry region."
+  },
+  "Pressure": {
+    "data": [ "01" ],
+    "key": "District_Boundary",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Pressure",
+    "otherfunctions": {
+        "name": "loadWeather",
+        "params": ["data","title","tree"]
+    }, 
+    "about": "Barometric pressure is the measurement of air pressure in the atmosphere, specifically the measurement of the weight exerted by air molecules at a given point on Earth. It is also known as air pressure. Low barometric pressure means the overlying air is rising, whereas high pressure means the overlying air is sinking. The graph depicts the barometric pressure on the Puducherry region."
+  },
+  "Wind Speed": {
+    "data": [ "01" ],
+    "key": "District_Boundary",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Wind Speed",
+    "otherfunctions": {
+        "name": "loadWeather",
+        "params": ["data","title","tree"]
+    }, 
+    "about": "Wind speed is a fundamental atmospheric quantity caused by air moving from high to low pressure, usually due to changes in temperature. It affects the  weather forecasting, aviation and maritime operations, construction projects, growth and metabolism rate of many plant species, and has countless other implications. The graph depicts the Wind speed of the Puducherry region from 2010 to 2022.<br/><br/>Source: Indian Meteorological Department, Ministry of Earth Sciences, Government of India"
+  },
+  "Wind Direction": {
+    "data": [ "01" ],
+    "key": "District_Boundary",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Wind Direction",
+    "otherfunctions": {
+        "name": "loadWeather",
+        "params": ["data","title","tree"]
+    }, 
+    "about": ""
+  },
+  "Inundation Risk": {
+    "data": [ "01" ],
+    "key": "Risk",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Inundation Risk",
+    "chapterheader": "Coastal Inundation Risk",
+    "about": "Coastal inundation caused by various natural hazards such as cyclones, storms, tsunamis, and floods depends on the coastal elevation and slope. However, the inundation level varies depending on the intensity of the hazard. The primary objective of Coastal Inundation Risk Mapping (CIRM) is to identify and mitigate the areas which are potentially at higher risk. This map is based on the risk of low-lying coastal areas exposed to coastal flooding on extreme water levels with respect to the multi-hazard line considering a 100-year return period. This also extended the scope towards approaching nature-based and grey-based protections. Further, the socio-economic data pertaining to each coastal village has been used to indicate the exposure to the inundation leading to a greater damage or risk"
+  },
+  "Coral Reefs": {
+    "data": [ "01" ],
+    "key": "Corals",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Coral Reefs",
+    "chapterheader": "Coral Reefs",
+    "about": "Coral reefs provide as a source of food and novel medications, shield coasts from storms and erosive forces, stimulate the economy for nearby populations, and provide recreational activities. They also sustain healthy ocean food webs and provide habitats for millions of species of marine life. The coral reefs that exist in the Puducherry region are shown on this map"
+  },
+  "Sandy Area": {
+    "data": [ "01" ],
+    "key": "Sandy Area",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Sandy Area",
+    "chapterheader": "Sand Dunes",
+    "about": "Sand dunes offer essential ecological habitat as well as natural coastal defence against storm surge and strong waves, avoiding or minimising coastal flooding and structural damage. They serve as sand storage sites as well, delivering sand to beaches that have degraded. The map depicts the mapping of the various sand dunes on the Puducherry region. Source:NCCR"
+  },
+  "Biodiversity Hotspots": {
+    "data": [ "01" ],
+    "key": "Biodiversity",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Biodiversity Hotspots",
+    "chapterheader": "Biodiversity Hotspots",
+    "about": "Biodiversity hotspots are ecologically unique regions that are exceptionally rich in species, and are thus priority targets for nature conservation. Biodiversity underpins all life on Earth, these hotspots have significant global value as they contain species and habitats that are found nowhere else. Their loss would mean loss of species and habitats that provide wild and farmed food, medicine and other materials and services such as climate regulation, pollination and water purification, all of which maintain the health of the ecosystems we depend upon."
+  },
+  "Mangroves": {
+    "data": [ "01" ],
+    "key": "Mangroves",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Mangroves",
+    "chapterheader": "Mangroves",
+    "about": "Shorelines are shielded by mangroves from the catastrophic storm and hurricane winds, waves, and floods. It also helps prevent erosion by stabilizing sediments with their tangled root systems. They maintain water quality and clarity, filtering pollutants and trapping sediments originating from land. This map demonstrates the growth of mangroves along the coast from 2013 to 2022. Source:NCCR"
+  },
+  "Fish Potential Sites": {
+    "data": [ "01" ],
+    "key": "fishingzones",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Fish Potential Sites",
+    "chapterheader": "Fish Potential Sites",
+    "about": "Discovering and trapping fish is never an easy endeavour. Locating fish often requires investing a lot of effort and money. Fish potential spots are shown on this map of the Puducherry region. The fishing community will profit from this reliable and timely information on the potential fish aggregation zones since it will minimize the amount of time and effort needed to look for fish shoals.<br/><br/> Source:INCOIS"
+  },
+  "Biological Production Hotspots": {
+    "data": [ "01" ],
+    "key": "turtle",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Biological Production Hotspots",
+    "chapterheader": "Biological Production Hotspots",
+    "about": "The Marine Biodiversity including marine turtles in India is one among the richest in the Indian Ocean. Factors like climate change, unsustainable resource use, marine litter and pollution affect marine turtles and their habitats. Marine turtles play a variety of ecological roles for maintaining healthy marine habitats like controlling prey populations, supporting coastal vegetation through their hatchlings etc. Their presence is an indicator of healthy marine ecosystems and provides a source of revenue for local communities through tourism. Marine turtles thus present themselves as a key indicator of healthy marine habitats and an opportunity for conservation of associated species. The map depicts the plots of marine turtle nesting along the Puducherry region. Source: National Marine Turtle Action Plan (2021-2026), Ministry of Environment, Forest & Climate Change, Government of India"
+  }, 
+  "Archeological Sites": {
+    "data": [ "01" ],
+    "key": "Archeological Sites",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Archeological Sites",
+    "chapterheader": "Archeological Sites",
+    "about": ""
+  },
+  "Infrastructures": {
+    "data": [ "DB", "6", "18", "19", "21", "23", "24", "31" ],
+    "jsonpath": "infra.json",
+    "title": "Infrastructure",
+    "chapterheader": "Coastal Amenities",
+    "center": [ 11.93, 79.84 ],
+    "zoom": 12
+  },
+  "Coastal Protection Structures": {
+    "data": [ "01" ],
+    "key": "coastal_structures",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Coastal Protection Structures",
+    "chapterheader": "Coastal Amenities",
+    "center": [ 11.92, 79.83 ],
+    "zoom": 16
+  },
+  "Coastal Aquaculture": {
+    "data": [ "01" ],
+    "key": "Coastal Aquaculture",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Coastal Aquaculture",
+    "chapterheader": "Coastal Amenities",
+    "center": [ 11.845, 79.8 ],
+    "zoom": 15,
+    "about": "Coastal aquaculture entails managed farming or culture of organisms in saline or brackish water areas for the purpose of enhancing production, both for domestic and export markets. The socio-economic benefits arising from aquaculture expansion include the provision of food, contributing to improved nutrition and health, the generation of income and employment, the diversification of primary production, and, increasingly important for developing countries, foreign exchange earnings, etc."
+  },
+  "Surface Boat Sports": {
+    "data": [ "01" ],
+    "key": "Surface Boats",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Surface Boats",
+    "chapterheader": "Surface Boat Sports",
+    "center": [ 11.845, 79.8 ],
+    "zoom": 15,
+    "about": "Some of the water sports are: Snorkeling, Surfing, Sailing, Canoeing, Wakeboarding, etc."
+  },
+  "Scuba Diving": {
+    "data": [ "01" ],
+    "key": "Scuba",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Scuba",
+    "chapterheader": "Scuba Diving",
+    "center": [ 11.85, 79.82 ],
+    "zoom": 12,
+    "about": ""
+  },
+  "Risk": {
+    "data": [ "01" ],
+    "key": "risk",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Coastal Inundation Risk",
+    "chapterheader": "",
+    "about": "Coastal inundation caused by various natural hazards such as cyclones, storms, tsunamis, and floods depends on the coastal elevation and slope. However, the inundation level  varies depending on the intensity of the hazard. The primary objective of Coastal Inundation Risk Mapping (CIRM) is to identify and mitigate the areas which are potentially at higher risk. This map is based on the risk of low-lying coastal areas exposed to coastal flooding on extreme water levels with respect to the multi-hazard line considering a 100-year return period. This also extended the scope towards approaching nature based and grey based protections. Further, the socio-economic data pertaining to each coastal village has been used to indicate the exposure to the inundation leading to a greater damage or risk"
+  },
+  "CRZ": {
+    "data": [ "01" ],
+    "key": "crz",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "CRZ",
+    "chapterheader": "CRZ",
+    "center": [ 11.9, 79.82 ],
+    "zoom": 14,
+    "about": "The Coastal Regulation Zone includes the coastal area up to 500 metres from the High Tide Line (the line on the land up to which the highest water line reaches during the spring tide) and a stage of 100 metres along the banks of creeks, estuaries, backwaters, and rivers subject to tidal variations (CRZ). On the map of the Puducherry area, the CRZ has been divided into four categories: CRZ I, CRZ II, CRZ III, and CRZ IV"
+  },
+  "Mangroves Status": {
+    "data": [ "01" ],
+    "key": "Mangroves Status",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Mangroves Status",
+    "center": [ 11.914, 79.83 ],
+    "zoom": 14,
+    "otherfunctions": {
+      "name": "loadMangrovesStatus",
+      "params": [ "data", "tree" ]
+    },
+    "about": "Mangroves protect shorelines from damaging storm and hurricane winds, waves, and floods. It also helps prevent erosion by stabilizing sediments with their tangled root systems. They maintain water quality and clarity, filtering pollutants and trapping sediments originating from land. The graph plot on Mangrove area (Ha) indicates that the area accumulation on growth of mangroves along the sea-side is in incremental order for each and every year between 2015 to 2022. The map depicts the growth of mangroves along the sea-side between 2013 and 2022<br/><br/>Source:NCCR"
+  },
+  "Fisheries": {
+    "data": [ "01" ],
+    "key": "",
+    "title": "Fisheries Status", 
+     "jsonpath":"Multi_DataTree.json",  
+    "otherfunctions": {
+      "name": "loadfisheries",
+      "params": [ "data", "tree" ]
+    },
+    "about": "The World Travel and Tourism Council estimated that in 2018, tourism provided 8.1% of all employment in India, and generated 9.2% of India GDP. By 2028, the industry is expected to increase at an average annual rate of 6.9%, reaching $320 billion (or 9.9% of GDP). But still tourists are facing many infrastructure related problems like inadequate roads, water, hotels and telecommunications etc. Considering this, the regional developments should be taken into consideration for increasing the excellence of tourism in India. However, tourism industry places numerous stresses on regional ecosystems, leading to biodiversity loss, an increase in marine and beach litters, greenhouse gas emissions, and demand for more natural resources.",
+    "subpara":"Fishing is the traditional activity in India and it is one of the major sources of nutrition, employment and income for the coastal communities."
+  },
+  "Tourism": {
+    "data": [ "01" ],
+    "key": "",
+    "title": "Tourism Status",
+    "jsonpath": "Multi_DataTree.json",
+    "otherfunctions": {
+      "name": "loadtourism",
+      "params": [ "data", "tree" ]
+    },
+    "about": "The World Travel and Tourism Council estimated that in 2018, tourism provided 8.1% of all employment in India, and generated 9.2% of India GDP. By 2028, the industry is expected to increase at an average annual rate of 6.9%, reaching $320 billion (or 9.9% of GDP). But still tourists are facing many infrastructure related problems like inadequate roads, water, hotels and telecommunications etc. Considering this, the regional developments should be taken into consideration for increasing the excellence of tourism in India. However, tourism industry places numerous stresses on regional ecosystems, leading to biodiversity loss, an increase in marine and beach litters, greenhouse gas emissions, and demand for more natural resources.",
+    "subpara": "The tourism sector in India is an integral pillar of the Make in India program and it is growing rapidly. The tourism industry in India plays a role of significant economic multiplier and becomes critical since India has to grow at rapid rates and create jobs. "
+  },
+  "Vulnerability": {
+    "data": [ "01" ],
+    "key": "vulnerability",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Coastal Inundation Risk Atlas",
+    "center": [ 11.93, 79.84 ],
+    "zoom": 12,
+    "about": "Coastal inundation caused by various natural hazards such as cyclones, storms, tsunamis, and floods depends on the coastal elevation and slope. However, the inundation level  varies depending on the intensity of the hazard. The primary objective of Coastal Inundation Risk Mapping (CIRM) is to identify and mitigate the areas which are potentially at higher risk. This map is based on the risk of low-lying coastal areas exposed to coastal flooding on extreme water levels with respect to the multi-hazard line considering a 100-year return period. This also extended the scope towards approaching nature based and grey based protections. Further, the socio-economic data pertaining to each coastal village has been used to indicate the exposure to the inundation leading to a greater damage or risk."   
+  },
+  "Field Photos": {
+    "data": [ "01" ],
+    "key": "",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "Field Photos",  
+    "about": ""
+  },
+  "IMD Services": {
+    "data": [ "01" ],
+    "key": "",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "IMD Services",
+    "about": ""
+  },
+  "INCOIS Services": {
+    "data": [ "01" ],
+    "key": "",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "INCOIS Services",
+    "about": ""
+  },
+  "NCMRWF Services": {
+    "data": [ "01" ],
+    "key": "",
+    "jsonpath": "Multi_DataTree.json",
+    "title": "NCMRWF Services",
+    "about": ""
+  },
+  "Fisheries/Tourism": {
+    "data": [ "01" ],
+    "key": "conflict_fish_tour",
+    "jsonpath": "Multi_DataTree.json",
+    "center": [ 11.912, 79.83 ],
+    "zoom": 13,
+    "title": "Fisheries/Tourism",
+    "about": "Conflicts among the maritime uses and the environment have been analyzed based on the compiled spatial data of maritime activities.",
+    "subpara":"Tourism development leads to lower fishery participation but higher fishing intensity. So, tourism can affect the fisheries"
+  },
+  "Tourism/Shoreline": {
+    "data": [ "01" ],
+    "key": "",
+    "jsonpath": "tourism_shore.json",
+    "title": "Tourism/Shoreline",
+    "about": "Conflicts among the maritime uses and the environment have been analyzed based on the compiled spatial data of maritime activities.",
+    "subpara": "Residence on the coastal zone, shipping, land-use and tourism practices can affect the shoreline."
+  },
+  "Ecology/Human Activities": {
+    "data": [ "01" ],
+    "key": "",
+    "jsonpath": "humanconflicts.json",
+    "center": [ 11.912, 79.83 ],
+    "zoom": 13,
+    "title": "Ecology/Human Activities",
+    "about": "Conflicts among the maritime uses and the environment have been analyzed based on the compiled spatial data of maritime activities.",
+    "subpara":""
+  }  
+  
+}

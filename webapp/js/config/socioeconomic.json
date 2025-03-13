@@ -1,0 +1,71 @@
+﻿{
+  "Number": "01",
+  "Name": "Socio Economic",
+  "Children": [
+    {
+      "Number": "0",
+      "service": "MSPudhu:Scuba_Diving_Locations",
+      "Name": "Scuba_Diving_Locations"
+    },
+    {
+      "Number": "1",
+      "service": "MSPudhu:Ports",
+      "Name": "Ports"
+    },
+    {
+      "Number": "2",
+      "service": "MSPudhu:Aquaculture",
+      "Name": "Aquaculture"
+    },
+    {
+      "Number": "3",
+      "service": "MSPudhu:Sports_Activities",
+      "Name": "Sports_Activities"
+    },    	
+    {
+      "Number": "4",
+      "service": "MSPudhu:Tourism_Activities",
+      "Name": "Tourism_Activities"
+    },
+    {
+      "Number": "5",
+      "service": "MSPudhu:Tourism_Boating",
+      "Name": "Tourism_Boating"
+    },
+    {
+      "Number": "6",
+      "service": "MSPudhu:Trawl_Fishing",
+      "Name": "Trawl_Fishing"
+    },
+    {
+      "Number": "7",
+      "service": "MSPudhu:Fish_Landing_Centres",
+      "Name": "Fish_Landing_Centres"
+    },
+    {
+      "Number": "8",
+      "service": "MSPudhu:Seasonal_Fishing_Activity",
+      "Name": "Seasonal Fishing Activity"
+    },
+    {
+      "Number": "9",
+      "service": "MSPudhu:Trawl_Fishing_Sect",
+      "Name": "Trawl Fishing"
+    },
+    {
+      "Number": "10",
+      "service": "MSPudhu:Coast_Guard_Limits",
+      "Name": "Coast_Guard_Limits"
+    },
+    {
+      "Number": "11",
+      "service": "MSPudhu:Tourism_vs_Shoreline",
+      "Name": "Tourism_vs_Shoreline"
+    },
+     {
+      "Number": "12",
+      "service": "MSPudhu:Tourism_vs_Fisheries",
+      "Name": "Tourism_vs_Fisheries"
+    }          
+  ]
+}

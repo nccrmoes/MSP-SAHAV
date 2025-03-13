@@ -1,0 +1,473 @@
+﻿{
+  "Boundaries": [
+    {
+      "Number": "01",
+      "Name": "Pudhucherry",
+      "Children": [
+        {
+          "Number": "db",
+          "service": "MSPudhu:District_Boundary",
+          "Name": "District Boundary"
+        },
+        {
+          "Number": "vb",
+          "service": "MSPudhu:VillageBoundary",
+          "Name": "Village Boundaries"
+        },
+        {
+          "Number": "vn",
+          "service": "MSPudhu:VillageNames",
+          "Name": "Village Names"
+        }
+      ]
+    }
+  ],
+  "Water Resources": [
+    {
+      "Number": "01",
+      "Name": "Water Resources",
+      "Children": [
+        {
+          "Number": "2",
+          "Name": "District_Boundary",
+          "service": "MSPudhu:District_Boundary"
+        },
+        {
+          "Number": "0",
+          "Name": "Rivers",
+          "service": "MSPudhu:River"
+        },
+        {
+          "Number": "1",
+          "Name": "Tanks",
+          "service": "MSPudhu:Tanks"
+        }
+      ]
+    }
+  ],
+  "District_Boundary": [
+    {
+      "Number": "01",
+      "Name": "Pudhucherry",
+      "Children": [
+        {
+          "Number": "11",
+          "Name": "District_Boundary",
+          "service": "MSPudhu:District_Boundary"
+        }
+      ]
+    }
+  ],
+  "Lulc": [
+    {
+      "Number": "lulc",
+      "service": "MSPudhu:Pondy_lulc",
+      "Name": "Land Use"
+    }
+  ],
+  "Corals": [
+    {
+      "Number": "01",
+      "Name": "Boundary",
+      "Children": [
+        {
+          "Number": "0",
+          "Name": "MSPudhu:District_Boundary",
+          "service": "MSPudhu:District_Boundary"
+        },
+        {
+          "Number": "crl",
+          "Name": "Corals",
+          "service": "MSPudhu:Corals"
+        }
+      ]
+    }
+  ],
+  "Sandy Area": [
+    {
+      "Number": "01",
+      "Name": "Boundary",
+      "Children": [
+        {
+          "Number": "0",
+          "Name": "MSPudhu:District_Boundary",
+          "service": "MSPudhu:District_Boundary"
+        },
+        {
+          "Number": "1",
+          "Name": "Sand_Dune",
+          "service": "MSPudhu:Sand_Dune"
+        },
+        {
+          "Number": "2",
+          "Name": "SandSpit",
+          "service": "MSPudhu:SandSpit"
+        },
+        {
+          "Number": "3",
+          "Name": "Sandy_Beach",
+          "service": "MSPudhu:Sandy_Beach"
+        }
+      ]
+    }
+  ],
+  "Biodiversity": [
+    {
+      "Number": "01",
+      "Name": "Boundary",
+      "Children": [
+        {
+          "Number": "0",
+          "Name": "MSPudhu:District_Boundary",
+          "service": "MSPudhu:District_Boundary"
+        },
+        {
+          "Number": "1",
+          "Name": "Osudu_Lake",
+          "service": "MSPudhu:Osudu_Lake"
+        },
+        {
+          "Number": "biohotspots",
+          "Name": "Biodiversity_Hotspots",
+          "service": "MSPudhu:Biodiversity_Hotspots"
+        }
+      ]
+    }
+  ],
+  "turtle": [
+    {
+      "Number": "01",
+      "Name": "Boundary",
+      "Children": [
+        {
+          "Number": "0",
+          "Name": "District_Boundary",
+          "service": "MSPudhu:District_Boundary"
+        },
+        {
+          "Number": "1",
+          "Name": "MSPudhu:Turtle_Nesting_Ground",
+          "service": "MSPudhu:Turtle_Nesting_Ground"
+        }
+      ]
+    }
+  ],
+  "Mangroves": [
+    {
+      "Number": "01",
+      "Name": "Ecology",
+      "Children": [
+        {
+          "Number": "1",
+          "service": "MSPudhu:District_Boundary",
+          "Name": "District_Boundary"
+        },
+        {
+          "Number": "0",
+          "Name": "Mangroves",
+          "service": "MSPudhu:Mangroves_2022"
+        }
+      ]
+    }
+  ],
+  "Mangroves Status": [
+    {
+      "Number": "01",
+      "Name": "Mangroves Status",
+      "Children": [
+        {
+          "Number": "0",
+          "service": "MSPudhu:District_Boundary",
+          "Name": "District_Boundary"
+        },
+        {
+          "Number": "1",
+          "service": "MSPudhu:Mangroves_2022",
+          "Name": "Mangroves_2022"
+        },
+        {
+          "Number": "2",
+          "service": "MSPudhu:Mangroves_2017",
+          "Name": "Mangroves_2017"
+        },
+        {
+          "Number": "3",
+          "service": "MSPudhu:Mangroves_2013",
+          "Name": "Mangroves_2013"
+        }
+      ]
+    }
+  ],
+  "fishingzones": [
+    {
+      "Number": "01",
+      "Name": "Ecology",
+      "Children": [
+        {
+          "Number": "1",
+          "service": "MSPudhu:District_Boundary",
+          "Name": "District_Boundary"
+        },
+        {
+          "Number": "0",
+          "Name": "Fish_Potential_Sites",
+          "service": "MSPudhu:Potential_Fishing_Zone"
+        }
+      ]
+    }
+  ],
+  "Navigational Routes": [
+    {
+      "Number": "01",
+      "Name": "Navigational Routes",
+      "Children": [
+        {
+          "Number": "11",
+          "service": "MSPudhu:District_Boundary",
+          "Name": "District_Boundary"
+        },
+        {
+          "Number": "1",
+          "Name": "Under_Water Cable",
+          "service": "MSPudhu:Under_water_cable-UT_Pondy"
+        },
+        {
+          "Number": "2",
+          "Name": "Cable Under Construction",
+          "service": "MSPudhu:Underwater_Cable-Under_Construction"
+        }
+      ]
+    }
+  ],
+  "Coastal Protection Structures": [
+    {
+      "Number": "01",
+      "Name": "Coastal Protection Structures",
+      "Children": [
+        {
+          "Number": "1",
+          "service": "MSPudhu:District_Boundary",
+          "Name": "District_Boundary"
+        },
+        {
+          "Number": "crp",
+          "Name": "Coastal_Protection_Structures",
+          "service": "MSPudhu:Coastal_Protection_Structures"
+        }
+      ]
+    }
+  ],
+  "Defence And Naval Operations": [
+    {
+      "Number": "01",
+      "Name": "Defence And Naval",
+      "Children": [
+        {
+          "Number": "11",
+          "service": "MSPudhu:District_Boundary",
+          "Name": "District_Boundary"
+        },
+        {
+          "Number": "1",
+          "Name": "Coast_Guard_Limits",
+          "service": "MSPudhu:Coast_Guard_Limits"
+        }
+      ]
+    }
+  ],
+  "Deployment of Buoys": [
+    {
+      "Number": "01",
+      "Name": "Deployment of Buoys",
+      "Children": [
+        {
+          "Number": "11",
+          "service": "MSPudhu:District_Boundary",
+          "Name": "District_Boundary"
+        }
+      ]
+    }
+  ],
+  "Archeological Sites": [
+    {
+      "Number": "01",
+      "Name": "Human Activities",
+      "Children": [
+        {
+          "Number": "0",
+          "service": "MSPudhu:District_Boundary",
+          "Name": "District_Boundary"
+        },
+        {
+          "Number": "1",
+          "service": "MSPudhu:Archeological_Site",
+          "Name": "Archeological_Site"
+        }
+      ]
+    }
+  ],
+  "Coastal Aquaculture": [
+    {
+      "Number": "01",
+      "Name": "Coastal Aquaculture",
+      "Children": [
+        {
+          "Number": "11",
+          "service": "MSPudhu:District_Boundary",
+          "Name": "District_Boundary"
+        },
+        {
+          "Number": "1",
+          "Name": "Aquaculture",
+          "service": "MSPudhu:Aquaculture"
+        }
+      ]
+    }
+  ],
+  "Scuba": [
+    {
+      "Number": "01",
+      "Name": "Scuba Diving",
+      "Children": [
+        {
+          "Number": "11",
+          "service": "MSPudhu:District_Boundary",
+          "Name": "District_Boundary"
+        },
+        {
+          "Number": "1",
+          "Name": "Scuba_Diving_Locations",
+          "service": "MSPudhu:Scuba_Diving_Locations"
+        }
+      ]
+    }
+  ],
+  "Surface Boats": [
+    {
+      "Number": "01",
+      "Name": "Sports",
+      "Children": [
+        {
+          "Number": "11",
+          "service": "MSPudhu:District_Boundary",
+          "Name": "District_Boundary"
+        },
+        {
+          "Number": "1",
+          "Name": "Sports_Activities",
+          "service": "MSPudhu:Sports_Activities"
+        }
+      ]
+    }
+  ],
+  "coastal_structures": [
+    {
+      "Number": "01",
+      "Name": "Coastal Protection Structures",
+      "Children": [
+        {
+          "Number": "1",
+          "service": "MSPudhu:District_Boundary",
+          "Name": "District_Boundary"
+        },
+        {
+          "Number": "2",
+          "Name": "Coastal_Protection_Structures",
+          "service": "MSPudhu:Coastal_Protection_Structures"
+        }
+      ]
+    }
+  ],
+  "risk": [
+    {
+      "Number": "01",
+      "Name": "Risk",
+      "Children": [
+        {
+          "Number": "3",
+          "service": "MSPudhu:District_Boundary",
+          "Name": "District_Boundary"
+        },
+        {
+          "Number": "0",
+          "Name": "Hazard_Line",
+          "service": "MSPudhu:Hazard_Line"
+        },
+        {
+          "Number": "1",
+          "Name": "Multi_Hazard_Line",
+          "service": "MSPudhu:Multi_Hazard_Line"
+        },
+        {
+          "Number": "2",
+          "Name": "Tsunami_Water_Level",
+          "service": "MSPudhu:Tsunami_Water_Level"
+        }
+      ]
+    }
+  ],
+  "crz": [
+    {
+      "Number": "01",
+      "Name": "CRZ",
+      "Children": [
+        {
+          "Number": "11",
+          "service": "MSPudhu:District_Boundary",
+          "Name": "District_Boundary"
+        },
+        {
+          "Number": "0",
+          "Name": "CRZ",
+          "service": "MSPudhu:CRZ"
+        }
+      ]
+    }
+  ],
+  "conflict_fish_tour": [
+    {
+      "Number": "01",
+      "Name": "Tourism/Shoreline",
+      "Children": [
+        {
+          "Number": "11",
+          "service": "MSPudhu:District_Boundary",
+          "Name": "District_Boundary"
+        },
+        {
+          "Number": "TvsF",
+          "service": "MSPudhu:Tourism_vs_Fisheries",
+          "Name": "Tourism_vs_Fisheries"
+        },
+        {
+          "Number": "coastameni",
+          "service": "MSPudhu:Coastal_Amenities",
+          "Name": "Coastal_Amenities"
+        }
+      ]
+    }
+  ],
+  "vulnerability": [
+    {
+      "Number": "01",
+      "Name": "Vulnerability",
+      "Children": [
+        {
+          "Number": "11",
+          "service": "MSPudhu:District_Boundary",
+          "Name": "District_Boundary"
+        },
+        {
+          "Number": "vuln",
+          "service": "MSPudhu:CIRA_PY_final",
+          "Name": "Vulnerability"
+        }
+      ]
+    }
+  ]
+
+  
+
+
+    
+}
