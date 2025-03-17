@@ -9,7 +9,7 @@
         "Name": "District Boundary"
       },
       {
-        "Number": "1",
+        "Number": "mbc",
         "service": "MSPudhu:Mangrove_BoatingConflict",
         "Name": "Mangrove_BoatingConflict"
       },
@@ -24,7 +24,7 @@
         "Name": "Crab Locations"
       },
       {
-        "Number": "3",
+        "Number": "4",
         "service": "MSPudhu:Tourism_Activity",
         "Name": "Tourism Activity"
       }

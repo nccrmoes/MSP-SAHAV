@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>   
+    <link rel="stylesheet" href="./css/msp_theme.css">
+    <script src="js/leaflet/L.Geoserver.js"></script>
+    <script src="js/leaflet/leaflet.browser.print.js"></script>
+    <script src="js/leaflet/leaflet-image.js"></script>    
+    <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script> 
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo">
+            <img src="img/india.png" class="indialogo"  alt="" />
+            <img src="img/P-L@4x.png" class="pudhulogo" alt="MSP" />
+        </div>       
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="mainNav">
+                <ul class="navbar-nav d-flex flex-nowrap justify-content-center">
+                    <li class="nav-item" data-menu="dataRepository" ><a class="nav-link" href="#">Data Repository</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sectoral Plans</a></li>
+                    <li class="nav-item" data-menu="status indicators"><a class="nav-link" href="#">Status Indicators</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Project Proposals</a></li>
+                    <li class="nav-item" data-menu="conflicts"><a class="nav-link" href="#">Conflicts & Compatibilities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Proposed MSP</a></li>
+                    <li class="nav-item" data-menu="services"><a class="nav-link" href="#">Services-MoES</a></li>
+                   <!-- <li class="nav-item" onclick="openfeedbackmodel();"><a class="nav-link" href="#">Feedback</a></li>-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="map" class="map-container"></div>
+            <div id="divutils">
+                <div class="layersListSideDiv" id="popup">
+                    <div class="popup-header">
+                        <span id="layerstitle">Layers</span>
+                        <i class="fas fa-times close-btn" onclick="closeLayersList()"></i>
+                    </div>
+                    <div class="popup-body">
+                        <div id="divLayers">
+                            <div id="divlayersList"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="legendsidediv ">
+                    <div class="popup-header">
+                        <span id="legendtitle">Legend</span>
+                        <i class="fas fa-times close-btn" onclick="closeLegend()"></i>
+                    </div>
+                    <div class="popup-body">
+                        <div id="divLayers">
+                            <div id="divLegend"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="divbasemaps" class="basemapsidediv">
+                    <h5 class="basemap-header">
+                        Basemaps
+                        <button class="closebasemap" onclick="closeBasemaps();">×</button>
+                    </h5>
+                    <div class="basemap-container">
+                        <div class="basemap-item">
+                            <img id="bmhybrid" src="img/satellite.png" data-basemap="satellite" class="bmicon" alt="Satellite">
+                            <span class="bmlbl">Google Satellite Map</span>
+                        </div>
+                        <div class="basemap-item">
+                            <img id="bmGray" src="img/imagery.png" class="bmicon" data-basemap="imagery" alt="ESRI">
+                            <span class="bmlbl">ESRI World Imagery</span>
+                        </div>
+                        <div class="basemap-item">
+                            <img id="bmdark" src="img/streets.png" data-basemap="topo" class="bmicon" alt="Dark">
+                            <span class="bmlbl">ESRI Topographic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="map-widget">
+                <div class="map-tool" data-action="openLayersList">
+                    <i class="fas fa-layer-group"></i>
+                    <span class="tool-title">Layers</span>
+                </div>
+                <div class="map-tool" data-action="openLegend">
+                    <i class="fas fa-list"></i>
+                    <span class="tool-title">Legend</span>
+                </div>
+                <div class="map-tool" data-action="openBasemaps">
+                    <i class="fas fa-map"></i>
+                    <span class="tool-title">Basemaps</span>
+                </div>
+                <div class="map-tool" data-action="openPrint">
+                    <i class="fas fa-print"></i>
+                    <span class="tool-title">Print</span>
+                </div>               
+            </div>
+
+            <div id="narration" class="closed">
+                <div class="sidebar-handle">
+                    <span class="vertical-text">I<br />N<br />F<br />O</span>
+                </div>
+                <div id="contents" class="contentsDiv">
+                    <div id="container2" class="image-container">
+                        <p class="chapter-header" style="line-height: 26px;"></p>
+                        <hr />                        
+                        <div class="description" style="padding-bottom:0">
+                            <p id="contentsubh"></p>
+                            <p id="contentpara"></p>
+                            <div id="divcharts" class="chartcls"></div><br />
+                            <div id="divcharts2" class="chartcls"></div><br />
+                            <div id="divcharts3" class="chartcls"></div><br />
+                            <div id="divcharts4" class="chartcls"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        
+            <img src="img/progress.gif" class="progressloading" />
+            <script src="https://code.highcharts.com/highcharts.js"></script>
+            <script src="https://code.highcharts.com/highcharts-more.js"></script>
+            <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+            <script src="https://code.highcharts.com/modules/cylinder.js"></script>
+            <script src="https://code.highcharts.com/modules/exporting.js"></script>
+            <script src="https://code.highcharts.com/modules/export-data.js"></script>
+            <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+            <script src="https://code.highcharts.com/modules/annotations.js"></script>         
+            <script src="js/scripts/common.js"></script>
+            <script src="js/scripts/customutils.js"></script>
+            <script src="js/scripts/charts.js"></script>
+            <script src="js/scripts/callbacks.js"></script>
+            <script src="js/scripts/main.js"></script>
+</body>
+</html>

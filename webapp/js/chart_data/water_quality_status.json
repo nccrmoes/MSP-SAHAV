@@ -1,0 +1,1282 @@
+[
+  {
+    "year": 757382400000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.8",
+    "DIP": "2.1",
+    "DIN": "0"
+  },
+  {
+    "year": 788918400000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "6.16",
+    "DIP": "1.94",
+    "DIN": "2.47"
+  },
+  {
+    "year": 820454400000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "3.74",
+    "DIP": "0.11",
+    "DIN": "3.01"
+  },
+  {
+    "year": 820454400000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.19",
+    "DIP": "0.41",
+    "DIN": "2.18"
+  },
+  {
+    "year": 820454400000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.14",
+    "DIP": "0.04",
+    "DIN": "7.08"
+  },
+  {
+    "year": 852076800000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "0",
+    "DIP": "0.16",
+    "DIN": "0.74"
+  },
+  {
+    "year": 852076800000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.64",
+    "DIP": "0.15",
+    "DIN": "0"
+  },
+  {
+    "year": 852076800000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "0",
+    "DIP": "1.05",
+    "DIN": "0"
+  },
+  {
+    "year": 852076800000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "0",
+    "DIP": "0.7",
+    "DIN": "1.59"
+  },
+  {
+    "year": 852076800000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.9",
+    "DIP": "0.15",
+    "DIN": "3.16"
+  },
+  {
+    "year": 852076800000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "6.35",
+    "DIP": "0.06",
+    "DIN": "3.5"
+  },
+  {
+    "year": 883612800000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "6.8",
+    "DIP": "2",
+    "DIN": "6.43"
+  },
+  {
+    "year": 883612800000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "6.71",
+    "DIP": "0.92",
+    "DIN": "11.12"
+  },
+  {
+    "year": 915148800000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "6.69",
+    "DIP": "0",
+    "DIN": "2.86"
+  },
+  {
+    "year": 915148800000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "7.56",
+    "DIP": "3.6",
+    "DIN": "24.66"
+  },
+  {
+    "year": 915148800000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "6.56",
+    "DIP": "0",
+    "DIN": "3.59"
+  },
+  {
+    "year": 915148800000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "7.58",
+    "DIP": "1.13",
+    "DIN": "22.65"
+  },
+  {
+    "year": 946684800000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.65",
+    "DIP": "0.63",
+    "DIN": "7.12"
+  },
+  {
+    "year": 946684800000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "7.51",
+    "DIP": "0.63",
+    "DIN": "10.6"
+  },
+  {
+    "year": 946684800000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "6.8",
+    "DIP": "0.89",
+    "DIN": "4.09"
+  },
+  {
+    "year": 978307200000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.03",
+    "DIP": "0.89",
+    "DIN": "21.57"
+  },
+  {
+    "year": 978307200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "0",
+    "DIP": "0.58",
+    "DIN": "17.6"
+  },
+  {
+    "year": 978307200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "0",
+    "DIP": "0.79",
+    "DIN": "9.21"
+  },
+  {
+    "year": 1009843200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "3.98",
+    "DIP": "0.91",
+    "DIN": "1.47"
+  },
+  {
+    "year": 1009843200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.1",
+    "DIP": "1.21",
+    "DIN": "2.79"
+  },
+  {
+    "year": 1009843200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "3.96",
+    "DIP": "0.11",
+    "DIN": "12.92"
+  },
+  {
+    "year": 1009843200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.57",
+    "DIP": "0.07",
+    "DIN": "2.53"
+  },
+  {
+    "year": 1009843200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.5",
+    "DIP": "1.2",
+    "DIN": "3.04"
+  },
+  {
+    "year": 1009843200000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.09",
+    "DIP": "1.1",
+    "DIN": "3.91"
+  },
+  {
+    "year": 1009843200000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.26",
+    "DIP": "0.01",
+    "DIN": "14.57"
+  },
+  {
+    "year": 1009843200000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.37",
+    "DIP": "1.75",
+    "DIN": "6.87"
+  },
+  {
+    "year": 1041379200000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.82",
+    "DIP": "1.55",
+    "DIN": "4.87"
+  },
+  {
+    "year": 1041379200000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.55",
+    "DIP": "0.88",
+    "DIN": "7.21"
+  },
+  {
+    "year": 1041379200000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.95",
+    "DIP": "1.59",
+    "DIN": "9.67"
+  },
+  {
+    "year": 1041379200000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "6.12",
+    "DIP": "1.4",
+    "DIN": "3.12"
+  },
+  {
+    "year": 1041379200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "3.95",
+    "DIP": "0.95",
+    "DIN": "1.53"
+  },
+  {
+    "year": 1041379200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.45",
+    "DIP": "0.9",
+    "DIN": "6.14"
+  },
+  {
+    "year": 1041379200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.77",
+    "DIP": "0.79",
+    "DIN": "8.24"
+  },
+  {
+    "year": 1041379200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "6.4",
+    "DIP": "0.57",
+    "DIN": "7.46"
+  },
+  {
+    "year": 1041379200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "6.46",
+    "DIP": "0.59",
+    "DIN": "2.57"
+  },
+  {
+    "year": 1041379200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "6.69",
+    "DIP": "0.25",
+    "DIN": "1.91"
+  },
+  {
+    "year": 1072915200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.01",
+    "DIP": "0.09",
+    "DIN": "2.59"
+  },
+  {
+    "year": 1072915200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.2",
+    "DIP": "0.05",
+    "DIN": "2.08"
+  },
+  {
+    "year": 1072915200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.31",
+    "DIP": "0.23",
+    "DIN": "2.606"
+  },
+  {
+    "year": 1072915200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.82",
+    "DIP": "0.19",
+    "DIN": "1.966"
+  },
+  {
+    "year": 1072915200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.83",
+    "DIP": "2.16",
+    "DIN": "2.76"
+  },
+  {
+    "year": 1072915200000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "3.54",
+    "DIP": "1.4",
+    "DIN": "2.03"
+  },
+  {
+    "year": 1072915200000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "2.14",
+    "DIP": "0.11",
+    "DIN": "4.14"
+  },
+  {
+    "year": 1072915200000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.54",
+    "DIP": "0.26",
+    "DIN": "2.92"
+  },
+  {
+    "year": 1072915200000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "3.41",
+    "DIP": "4.07",
+    "DIN": "3.41"
+  },
+  {
+    "year": 1104537600000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.93",
+    "DIP": "0.7",
+    "DIN": "3.22"
+  },
+  {
+    "year": 1104537600000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "3.2",
+    "DIP": "0.68",
+    "DIN": "16.41"
+  },
+  {
+    "year": 1104537600000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.43",
+    "DIP": "1.6",
+    "DIN": "15.41"
+  },
+  {
+    "year": 1104537600000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.31",
+    "DIP": "0.7",
+    "DIN": "4.01"
+  },
+  {
+    "year": 1104537600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.87",
+    "DIP": "0.64",
+    "DIN": "9.91"
+  },
+  {
+    "year": 1104537600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.52",
+    "DIP": "0.6",
+    "DIN": "6.27"
+  },
+  {
+    "year": 1104537600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "2.25",
+    "DIP": "0.24",
+    "DIN": "11.77"
+  },
+  {
+    "year": 1104537600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.28",
+    "DIP": "0.48",
+    "DIN": "10.04"
+  },
+  {
+    "year": 1104537600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.54",
+    "DIP": "0.6",
+    "DIN": "12.03"
+  },
+  {
+    "year": 1104537600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.54",
+    "DIP": "0.6",
+    "DIN": "9.03"
+  },
+  {
+    "year": 1104537600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.48",
+    "DIP": "1.41",
+    "DIN": "4.47"
+  },
+  {
+    "year": 1104537600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.69",
+    "DIP": "0.54",
+    "DIN": "2.34"
+  },
+  {
+    "year": 1136073600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "7.32",
+    "DIP": "0.01",
+    "DIN": "1.95"
+  },
+  {
+    "year": 1136073600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "7.48",
+    "DIP": "0.01",
+    "DIN": "1.97"
+  },
+  {
+    "year": 1136073600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.22",
+    "DIP": "0.04",
+    "DIN": "1.9"
+  },
+  {
+    "year": 1136073600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.45",
+    "DIP": "0.01",
+    "DIN": "1.71"
+  },
+  {
+    "year": 1136073600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.52",
+    "DIP": "0.24",
+    "DIN": "3.58"
+  },
+  {
+    "year": 1136073600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "3.41",
+    "DIP": "0.16",
+    "DIN": "2.47"
+  },
+  {
+    "year": 1136073600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.89",
+    "DIP": "0.11",
+    "DIN": "3.72"
+  },
+  {
+    "year": 1136073600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.26",
+    "DIP": "0.12",
+    "DIN": "3.6"
+  },
+  {
+    "year": 1136073600000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "7.15",
+    "DIP": "0.1",
+    "DIN": "1.69"
+  },
+  {
+    "year": 1136073600000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.65",
+    "DIP": "0.19",
+    "DIN": "2.83"
+  },
+  {
+    "year": 1136073600000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "3.98",
+    "DIP": "0.21",
+    "DIN": "4.46"
+  },
+  {
+    "year": 1136073600000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.15",
+    "DIP": "0.17",
+    "DIN": "3.66"
+  },
+  {
+    "year": 1167609600000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.5",
+    "DIP": "0.57",
+    "DIN": "4.33"
+  },
+  {
+    "year": 1167609600000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.72",
+    "DIP": "0.4",
+    "DIN": "4.84"
+  },
+  {
+    "year": 1167609600000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.95",
+    "DIP": "0.24",
+    "DIN": "6.97"
+  },
+  {
+    "year": 1167609600000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.23",
+    "DIP": "0.55",
+    "DIN": "3.77"
+  },
+  {
+    "year": 1167609600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.36",
+    "DIP": "0.68",
+    "DIN": "3.88"
+  },
+  {
+    "year": 1167609600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.41",
+    "DIP": "0.6",
+    "DIN": "4.31"
+  },
+  {
+    "year": 1167609600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.06",
+    "DIP": "0.36",
+    "DIN": "4.78"
+  },
+  {
+    "year": 1167609600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.1",
+    "DIP": "0.36",
+    "DIN": "4.03"
+  },
+  {
+    "year": 1167609600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.25",
+    "DIP": "0.43",
+    "DIN": "6.62"
+  },
+  {
+    "year": 1167609600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "3.75",
+    "DIP": "0.08",
+    "DIN": "7.02"
+  },
+  {
+    "year": 1167609600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.25",
+    "DIP": "1.13",
+    "DIN": "4.89"
+  },
+  {
+    "year": 1167609600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.25",
+    "DIP": "0.22",
+    "DIN": "3.55"
+  },
+  {
+    "year": 1167609600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.65",
+    "DIP": "0.33",
+    "DIN": "3.98"
+  },
+  {
+    "year": 1199145600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "3.97",
+    "DIP": "0.3",
+    "DIN": "2.91"
+  },
+  {
+    "year": 1199145600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.2",
+    "DIP": "0.48",
+    "DIN": "1.89"
+  },
+  {
+    "year": 1199145600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.2",
+    "DIP": "0.667",
+    "DIN": "4.479"
+  },
+  {
+    "year": 1199145600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.54",
+    "DIP": "0.889",
+    "DIN": "3.772"
+  },
+  {
+    "year": 1199145600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.76",
+    "DIP": "0.259",
+    "DIN": "2.474"
+  },
+  {
+    "year": 1199145600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.81",
+    "DIP": "0.444",
+    "DIN": "6.446"
+  },
+  {
+    "year": 1199145600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.54",
+    "DIP": "0.778",
+    "DIN": "3.072"
+  },
+  {
+    "year": 1199145600000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.65",
+    "DIP": "0.259",
+    "DIN": "3.425"
+  },
+  {
+    "year": 1199145600000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "3.86",
+    "DIP": "0.11",
+    "DIN": "3.24"
+  },
+  {
+    "year": 1199145600000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.86",
+    "DIP": "0.592",
+    "DIN": "3.513"
+  },
+  {
+    "year": 1199145600000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.65",
+    "DIP": "1.074",
+    "DIN": "3.949"
+  },
+  {
+    "year": 1199145600000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.31",
+    "DIP": "0.852",
+    "DIN": "2.873"
+  },
+  {
+    "year": 1230768000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.73",
+    "DIP": "0.518",
+    "DIN": "3.742"
+  },
+  {
+    "year": 1230768000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.12",
+    "DIP": "0.667",
+    "DIN": "3.251"
+  },
+  {
+    "year": 1230768000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.85",
+    "DIP": "1.196",
+    "DIN": "4.094"
+  },
+  {
+    "year": 1230768000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.69",
+    "DIP": "0.815",
+    "DIN": "3.897"
+  },
+  {
+    "year": 1230768000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.27",
+    "DIP": "0.476",
+    "DIN": "8.998"
+  },
+  {
+    "year": 1230768000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.28",
+    "DIP": "0.572",
+    "DIN": "3.733"
+  },
+  {
+    "year": 1230768000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.2",
+    "DIP": "0.536",
+    "DIN": "2.438"
+  },
+  {
+    "year": 1230768000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.25",
+    "DIP": "0.592",
+    "DIN": "3.277"
+  },
+  {
+    "year": 1230768000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.11",
+    "DIP": "0.148",
+    "DIN": "3.31"
+  },
+  {
+    "year": 1230768000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.1",
+    "DIP": "0.555",
+    "DIN": "2.262"
+  },
+  {
+    "year": 1230768000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.8",
+    "DIP": "0.954",
+    "DIN": "3.835"
+  },
+  {
+    "year": 1230768000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.19",
+    "DIP": "1.537",
+    "DIN": "7.327"
+  },
+  {
+    "year": 1230768000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.86",
+    "DIP": "0.715",
+    "DIN": "6.476"
+  },
+  {
+    "year": 1230768000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.23",
+    "DIP": "0.751",
+    "DIN": "5.622"
+  },
+  {
+    "year": 1230768000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.19",
+    "DIP": "0.751",
+    "DIN": "5.443"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.432",
+    "DIP": "0.189",
+    "DIN": "7.774"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.866",
+    "DIP": "0.566",
+    "DIN": "7.195"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.67",
+    "DIP": "0.755",
+    "DIN": "5.423"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.87",
+    "DIP": "0.491",
+    "DIN": "4.86"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.8",
+    "DIP": "0.415",
+    "DIN": "6.788"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.51",
+    "DIP": "0.453",
+    "DIN": "5.683"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.54",
+    "DIP": "0.589",
+    "DIN": "4.102"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.43",
+    "DIP": "0.982",
+    "DIN": "3.733"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.25",
+    "DIP": "0.625",
+    "DIN": "4.296"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.22",
+    "DIP": "0.718",
+    "DIN": "3.379"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.8",
+    "DIP": "0.189",
+    "DIN": "7.762"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.24",
+    "DIP": "0.453",
+    "DIN": "9.277"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.2",
+    "DIP": "0.34",
+    "DIN": "9.315"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "6.63",
+    "DIP": "0.189",
+    "DIN": "9.774"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.11",
+    "DIP": "0.227",
+    "DIN": "5.118"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.2",
+    "DIP": "0.357",
+    "DIN": "6.237"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.672",
+    "DIP": "1.057",
+    "DIN": "7.173"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.64",
+    "DIP": "0.453",
+    "DIN": "5.881"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "6.38",
+    "DIP": "0.68",
+    "DIN": "9.819"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "6.33",
+    "DIP": "0.566",
+    "DIN": "8.312"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "6.19",
+    "DIP": "0.453",
+    "DIN": "7.958"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "6.17",
+    "DIP": "0.189",
+    "DIN": "8.851"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.24",
+    "DIP": "0.227",
+    "DIN": "9.743"
+  },
+  {
+    "year": 1262304000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.27",
+    "DIP": "0.34",
+    "DIN": "9.441"
+  },
+  {
+    "year": 1293840000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.17",
+    "DIP": "0.491",
+    "DIN": "9.839"
+  },
+  {
+    "year": 1293840000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.04",
+    "DIP": "0.906",
+    "DIN": "12.116"
+  },
+  {
+    "year": 1293840000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.238",
+    "DIP": "1.133",
+    "DIN": "10.014"
+  },
+  {
+    "year": 1293840000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.2",
+    "DIP": "0.731",
+    "DIN": "8.953"
+  },
+  {
+    "year": 1293840000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.37",
+    "DIP": "0.378",
+    "DIN": "8.233"
+  },
+  {
+    "year": 1293840000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.75",
+    "DIP": "0.868",
+    "DIN": "11.986"
+  },
+  {
+    "year": 1293840000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.383",
+    "DIP": "0.785",
+    "DIN": "10.649"
+  },
+  {
+    "year": 1293840000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.24",
+    "DIP": "1.22",
+    "DIN": "9.792"
+  },
+  {
+    "year": 1325376000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.979",
+    "DIP": "0.641",
+    "DIN": "11.149"
+  },
+  {
+    "year": 1325376000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "5.465",
+    "DIP": "0.528",
+    "DIN": "5.628"
+  },
+  {
+    "year": 1325376000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "6.125",
+    "DIP": "0.264",
+    "DIN": "2.671"
+  },
+  {
+    "year": 1325376000000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "6.416",
+    "DIP": "0.415",
+    "DIN": "4.472"
+  },
+  {
+    "year": 1325376000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.818",
+    "DIP": "0.754",
+    "DIN": "6.686"
+  },
+  {
+    "year": 1325376000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.543",
+    "DIP": "0.415",
+    "DIN": "7.663"
+  },
+  {
+    "year": 1325376000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "5.575",
+    "DIP": "0.199",
+    "DIN": "3.383"
+  },
+  {
+    "year": 1325376000000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "6.9",
+    "DIP": "0.686",
+    "DIN": "2.914"
+  },
+  {
+    "year": 1356998400000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "6.012",
+    "DIP": "0.857",
+    "DIN": "4.825"
+  },
+  {
+    "year": 1356998400000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "6.302",
+    "DIP": "0.831",
+    "DIN": "1.673"
+  },
+  {
+    "year": 1388534400000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "6.74",
+    "DIP": "1.235",
+    "DIN": "1.2510982115543"
+  },
+  {
+    "year": 1388534400000,
+    "zone": "Offshore",
+    "source": "Surface",
+    "DO": "4.12",
+    "DIP": "0.50312",
+    "DIN": "1.644"
+  },
+  {
+    "year": 1388534400000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.86",
+    "DIP": "0.0096",
+    "DIN": "1.2892558802212"
+  },
+  {
+    "year": 1388534400000,
+    "zone": "Nearshore",
+    "source": "Surface",
+    "DO": "4.23",
+    "DIP": "1.147536",
+    "DIN": "3.234"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "category": "2010",
+    "humidity": {
+      "min": 75,
+      "q1": 76,
+      "median": 77,
+      "q3": 80,
+      "max": 89
+    }
+  },
+  {
+    "category": "2011",
+    "humidity": {
+      "min": 63,
+      "q1": 72,
+      "median": 77,
+      "q3": 80,
+      "max": 87
+    }
+  },
+  {
+    "category": "2012",
+    "humidity": {
+      "min": 69,
+      "q1": 70,
+      "median": 75,
+      "q3": 79,
+      "max": 85
+    }
+  },
+  {
+    "category": "2013",
+    "humidity": {
+      "min": 65,
+      "q1": 72,
+      "median": 77,
+      "q3": 78,
+      "max": 84
+    }
+  },
+  {
+    "category": "2014",
+    "humidity": {
+      "min": 62,
+      "q1": 68,
+      "median": 76,
+      "q3": 80,
+      "max": 84
+    }
+  },
+  {
+    "category": "2015",
+    "humidity": {
+      "min": 65,
+      "q1": 73,
+      "median": 77,
+      "q3": 79,
+      "max": 91
+    }
+  },
+  {
+    "category": "2016",
+    "humidity": {
+      "min": 68,
+      "q1": 69,
+      "median": 74,
+      "q3": 76,
+      "max": 77
+    }
+  },
+  {
+    "category": "2017",
+    "humidity": {
+      "min": 67,
+      "q1": 69,
+      "median": 76,
+      "q3": 79,
+      "max": 86
+    }
+  },
+  {
+    "category": "2018",
+    "humidity": {
+      "min": 64,
+      "q1": 70,
+      "median": 78,
+      "q3": 80,
+      "max": 84
+    }
+  },
+  {
+    "category": "2019",
+    "humidity": {
+      "min": 63,
+      "q1": 69,
+      "median": 74,
+      "q3": 76,
+      "max": 85
+    }
+  },
+  {
+    "category": "2020",
+    "humidity": {
+      "min": 70,
+      "q1": 74,
+      "median": 76,
+      "q3": 78,
+      "max": 84
+    }
+  },
+  {
+    "category": "2021",
+    "humidity": {
+      "min": 68,
+      "q1": 72,
+      "median": 76,
+      "q3": 78,
+      "max": 85
+    }
+  },
+  {
+    "category": "2022",
+    "humidity": {
+      "min": 73,
+      "q1": 74,
+      "median": 76,
+      "q3": 78,
+      "max": 81
+    }
+  }
+]

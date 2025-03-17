@@ -16,38 +16,27 @@
     },
     {
       "category": "Environment",
-      "items": [
+      "items": [       
         {
-          "name": "Marine Pollution",
-          "icon": "fas fa-water"
+          "name": "Geomorphology"        
         },
         {
-          "name": "Geomorphology",
-          "icon": "fas fa-water"
+          "name": "Precipitation"         
         },
         {
-          "name": "Precipitation",
-          "icon": "fas fa-water"
+          "name": "Humidity"          
         },
         {
-          "name": "Humidity",
-          "icon": "fas fa-water"
+          "name": "Airtemperature"          
         },
         {
-          "name": "Airtemperature",
-          "icon": "fas fa-water"
+          "name": "Wind Speed"        
         },
         {
-          "name": "Wind Speed",
-          "icon": "fas fa-water"
+          "name": "Cloud Cover"          
         },
         {
-          "name": "Cloud Cover",
-          "icon": "fas fa-water"
-        },
-        {
-          "name": "Pressure",
-          "icon": "fas fa-water"
+          "name": "Pressure"         
         }
 
       ]
@@ -56,28 +45,22 @@
       "category": "Ecology",
       "items": [
         {
-          "name": "Mangroves",
-          "icon": "fas fa-water"
+          "name": "Mangroves"          
         },
         {
-          "name": "Coral Reefs",
-          "icon": "fas fa-water"
+          "name": "Coral Reefs"         
         },
         {
-          "name": "Biodiversity Hotspots",
-          "icon": "fas fa-water"
+          "name": "Biodiversity Hotspots"
         },
         {
-          "name": "Sandy Area",
-          "icon": "fas fa-water"
+          "name": "Sandy Area"         
         },
         {
-          "name": "Fish Potential Sites",
-          "icon": "fas fa-water"
+          "name": "Fish Potential Sites"          
         },
         {
-          "name": "Biological Production Hotspots",
-          "icon": "fas fa-water"
+          "name": "Biological Production Hotspots"         
         }
       ]
     },
@@ -113,7 +96,7 @@
       "category": "Coastal Inundation Risk",
       "items": [        
       ]
-    }
+    }    
   ],
   "status indicators": [
     {
@@ -139,30 +122,26 @@
       ]
     },
     {
-      "category": "Marine Outfall",
+      "category": "Marine Pollution",
       "items": []
     }
   ],
-  "conflicts": [
+  "conflicts": [   
     {
-      "category": "Field Photos",
+      "category": "Ecology vs Human Activities",
       "items": []
     },
     {
-      "category": "Ecology/Human Activities",
+      "category": "Tourism vs Shoreline",
       "items": []
     },
     {
-      "category": "Tourism/Shoreline",
-      "items": []
-    },
-    {
-      "category": "Fisheries/Tourism",
+      "category": "Fisheries vs Tourism",
       "items": []
     }
   ],
   "services": [
-    {
+     {
       "category": "Vulnerability",
       "items": [ ]
     },
@@ -177,7 +156,7 @@
     {
       "category": "NCMRWF Services",
       "items": [ ]
-    }
+    } 
   ]
 
 }

@@ -1,6 +1,4 @@
-﻿//var layerstoexcludeinfilter = ["5","7","10","11", "12","20","21", "48", "49", "24", "26", "28", "30", "32","43"];
-//var layerstoexcludeinfilter = ["District_Boundary", "District Boundary"];
-var layerstoexcludeinfilter = [];
+﻿var layerstoexcludeinfilter = [];
 function createLayerItem(name, service, number,layerJson) {
     const layerItem = document.createElement('div');
     layerItem.classList.add('layer-item');
@@ -14,15 +12,17 @@ function createLayerItem(name, service, number,layerJson) {
     label.htmlFor = number;
     label.textContent = name;
     const icondivholder = document.createElement('div');
-    const icon = document.createElement('i');
+    //const icon = document.createElement('i');
     //icon.setAttribute("data-type","fa-table");
-    icon.classList.add('fas', 'fa-table');
-    icon.setAttribute('data-type', 'fa-table');
-    icon.addEventListener('click', () => handleIconClick(icon));
+    //icon.classList.add('fas', 'fa-table');
+    //icon.setAttribute('data-type', 'fa-table');
+    //icon.addEventListener('click', () => handleIconClick(icon));
     const icon2 = document.createElement('i');
     icon2.classList.add('fas', 'fa-search-plus');
     icon2.setAttribute('data-type', 'fa-search-plus');
-    icon2.addEventListener('click', () => handleIconClick(icon2));
+    icon2.addEventListener('click', () => zoomtolayer(layerJson,number));
+    
+    //icon2.addEventListener('click', () => handleIconClick(icon2));
     checkboxholder.appendChild(checkbox);
     checkboxholder.appendChild(label);
     if (name.length > 30)
@@ -33,15 +33,57 @@ function createLayerItem(name, service, number,layerJson) {
     else
       layerItem.appendChild(checkboxholder);
     
-    icondivholder.appendChild(icon);
+   // icondivholder.appendChild(icon);
     icondivholder.appendChild(icon2)
     layerItem.appendChild(icondivholder);
-    if (!layerstoexcludeinfilter.includes(name))
-    {
-            $('#att_layer').append(new Option(name, number));
-            $('#sp_layer-select').append(new Option(name, number));        
-    }
+    //if (!layerstoexcludeinfilter.includes(name))
+    //{
+    //        $('#att_layer').append(new Option(name, number));
+    //        $('#sp_layer-select').append(new Option(name, number));        
+    //}
     return layerItem;
+}
+
+function zoomtolayer(layersJson, layerId) {
+    const result = findElementByNumber(layersJson, layerId);
+    if (result != null) {
+        servicename = result.service;
+        fetchLayerBounds(servicename).then(bounds => {
+            if (bounds) {
+                map.fitBounds(bounds);
+            }
+        });
+    }
+}
+async function fetchLayerBounds(layerName) {
+    layerName = layerName.replace('MSPudhu:','');
+    layernamefor_matching=layerName;
+    layerName = layerName.replace(/ /g, "%20");              
+    const url=geoserverUrl+"?service=WMS&version=1.1.1&request=GetCapabilities";
+    try {
+        const response = await fetch(url);
+        const xml = await response.text();
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xml, 'application/xml');
+        const layers = xmlDoc.getElementsByTagName('Layer');
+                
+        for (let layer of layers) {
+            const name = layer.getElementsByTagName('Name')[0]?.textContent;
+        //console.log('fetchLayerBounds:  name:  '+ name + '  layerName: ' + layernamefor_matching);
+            if (name === layernamefor_matching) {
+                // console.log(layer);
+                const bbox = layer.getElementsByTagName('LatLonBoundingBox')[0];
+                const minX = parseFloat(bbox.getAttribute('minx'));
+                const minY = parseFloat(bbox.getAttribute('miny'));
+                const maxX = parseFloat(bbox.getAttribute('maxx'));
+                const maxY = parseFloat(bbox.getAttribute('maxy'));
+                return L.latLngBounds([minY, minX], [maxY, maxX]);
+            }
+        }
+        // throw new Error('Layer not found');
+    } catch (error) {
+        console.error('Error fetching layer bounds:', error);
+    }
 }
 
 
@@ -76,12 +118,11 @@ function createToggleContent() {
     return content;
 }
 var all_type_layers;
-function buildMenu(data, callback) {
-    console.log(data);
+function buildMenu(data, callback) {    
     all_type_layers=data;
     data.forEach(item => {
         if (item.Children) {
-            console.log(item.Name, item.Number);
+            //console.log(item.Name, item.Number);
             const toggleButton = createToggleButton(item.Name, item.Number);
             layersListDiv.appendChild(toggleButton);
             const toggleContent = createToggleContent();
@@ -233,6 +274,3 @@ function deletelegendItem(servicename) {
 
     }
 }
-
-
-

@@ -65,6 +65,20 @@
       "Name": "Land Use"
     }
   ],
+  "Geomorphology": [
+    {
+      "Number": "geomorph",
+      "service": "MSPudhu:Geomorphology_Clipped",
+      "Name": "Land Use"
+    }
+  ],
+  "MarinePollution": [
+    {
+        "Number": "1",
+        "service": "MSPudhu:Marine_Outfall",
+        "Name": "Marine_Outfall"
+    }
+  ],
   "Corals": [
     {
       "Number": "01",
@@ -215,30 +229,7 @@
         }
       ]
     }
-  ],
-  "Navigational Routes": [
-    {
-      "Number": "01",
-      "Name": "Navigational Routes",
-      "Children": [
-        {
-          "Number": "11",
-          "service": "MSPudhu:District_Boundary",
-          "Name": "District_Boundary"
-        },
-        {
-          "Number": "1",
-          "Name": "Under_Water Cable",
-          "service": "MSPudhu:Under_water_cable-UT_Pondy"
-        },
-        {
-          "Number": "2",
-          "Name": "Cable Under Construction",
-          "service": "MSPudhu:Underwater_Cable-Under_Construction"
-        }
-      ]
-    }
-  ],
+  ],  
   "Coastal Protection Structures": [
     {
       "Number": "01",
@@ -256,38 +247,7 @@
         }
       ]
     }
-  ],
-  "Defence And Naval Operations": [
-    {
-      "Number": "01",
-      "Name": "Defence And Naval",
-      "Children": [
-        {
-          "Number": "11",
-          "service": "MSPudhu:District_Boundary",
-          "Name": "District_Boundary"
-        },
-        {
-          "Number": "1",
-          "Name": "Coast_Guard_Limits",
-          "service": "MSPudhu:Coast_Guard_Limits"
-        }
-      ]
-    }
-  ],
-  "Deployment of Buoys": [
-    {
-      "Number": "01",
-      "Name": "Deployment of Buoys",
-      "Children": [
-        {
-          "Number": "11",
-          "service": "MSPudhu:District_Boundary",
-          "Name": "District_Boundary"
-        }
-      ]
-    }
-  ],
+  ],  
   "Archeological Sites": [
     {
       "Number": "01",
@@ -378,7 +338,7 @@
       ]
     }
   ],
-  "risk": [
+  "Risk": [
     {
       "Number": "01",
       "Name": "Risk",
@@ -405,25 +365,7 @@
         }
       ]
     }
-  ],
-  "crz": [
-    {
-      "Number": "01",
-      "Name": "CRZ",
-      "Children": [
-        {
-          "Number": "11",
-          "service": "MSPudhu:District_Boundary",
-          "Name": "District_Boundary"
-        },
-        {
-          "Number": "0",
-          "Name": "CRZ",
-          "service": "MSPudhu:CRZ"
-        }
-      ]
-    }
-  ],
+  ],  
   "conflict_fish_tour": [
     {
       "Number": "01",
@@ -464,10 +406,5 @@
         }
       ]
     }
-  ]
-
-  
-
-
-    
+  ]  
 }

@@ -44,9 +44,13 @@
   }, 
   "Marine Pollution": {
     "data": [ "1" ],
-    "key": "",
+    "key": "MarinePollution",
     "title": "Marine_Outfall",
-    "jsonpath": "Environment.json",
+    "jsonpath": "Multi_DataTree.json",
+     "otherfunctions": {
+      "name": "loadMarineOutfall",
+      "params": [ "data", "tree" ]
+    },
     "center": [ 11.95, 79.86 ],
     "zoom": 11,
     "about": "Marine litter data acquisition was acquired through “SSagar” app on beaches of Puducherry region such as Gandhi beach, Karaikal beach, Kilinjamedu beach and Auroville beach. Litters such as plastics, glass bottles, food wrappers, metal objects, slippers, papers and food stuffs were found along the beach. Majority of the litter types were various forms (bottles, caps, ropes, food wrappers, etc.) and types of plastics (polystyrene, polypropylene, polyethylene, etc.). Fishing nets and ropes were found in more numbers. Around 9.3 tons of litters were collected in total over the surveyed area. <br/><br/>A marine outfall is a pipeline or tunnel that discharges municipal or industrial wastewater, storm water, combined sewer overflows, cooling water, or brine effluents from water desalination plants to the sea. The points on the map depicts the two marine outfall locations with the inclusion of details on seven metals viz., cadmium, copper, mercury, zinc, lead, arsenic, chromium and pesticide, monocrotophos and other parameters.<br/><br/>Source: National Centre for Coastal Research (NCCR), MoES.",
@@ -55,7 +59,7 @@
   "Geomorphology": {
     "data": [ "geomorph" ],
     "key": "Geomorphology",
-    "jsonpath": "Environment.json",
+    "jsonpath": "Multi_DataTree.json",
     "title": "Geomorphology",
     "center": [ 11.91, 79.78 ],
     "zoom": 12,
@@ -250,9 +254,9 @@
     "zoom": 12,
     "about": ""
   },
-  "Risk": {
+  "Coastal Inundation Risk": {
     "data": [ "01" ],
-    "key": "risk",
+    "key": "Risk",
     "jsonpath": "Multi_DataTree.json",
     "title": "Coastal Inundation Risk",
     "chapterheader": "",
@@ -323,9 +327,13 @@
   },
   "IMD Services": {
     "data": [ "01" ],
-    "key": "",
+    "key": "",    
     "jsonpath": "Multi_DataTree.json",
     "title": "IMD Services",
+    "otherfunctions": {
+      "name": "redirectToServiceLinks",
+      "params": [ "data","title","tree" ]
+    },
     "about": ""
   },
   "INCOIS Services": {
@@ -333,6 +341,10 @@
     "key": "",
     "jsonpath": "Multi_DataTree.json",
     "title": "INCOIS Services",
+    "otherfunctions": {
+      "name": "redirectToServiceLinks",
+      "params": [ "data","title","tree" ]
+    },
     "about": ""
   },
   "NCMRWF Services": {
@@ -340,9 +352,13 @@
     "key": "",
     "jsonpath": "Multi_DataTree.json",
     "title": "NCMRWF Services",
+    "otherfunctions": {
+      "name": "redirectToServiceLinks",
+      "params": [ "data","title","tree" ]
+    },
     "about": ""
   },
-  "Fisheries/Tourism": {
+  "Fisheries vs Tourism": {
     "data": [ "01" ],
     "key": "conflict_fish_tour",
     "jsonpath": "Multi_DataTree.json",
@@ -352,7 +368,7 @@
     "about": "Conflicts among the maritime uses and the environment have been analyzed based on the compiled spatial data of maritime activities.",
     "subpara":"Tourism development leads to lower fishery participation but higher fishing intensity. So, tourism can affect the fisheries"
   },
-  "Tourism/Shoreline": {
+  "Tourism vs Shoreline": {
     "data": [ "01" ],
     "key": "",
     "jsonpath": "tourism_shore.json",
@@ -360,7 +376,7 @@
     "about": "Conflicts among the maritime uses and the environment have been analyzed based on the compiled spatial data of maritime activities.",
     "subpara": "Residence on the coastal zone, shipping, land-use and tourism practices can affect the shoreline."
   },
-  "Ecology/Human Activities": {
+  "Ecology vs Human Activities": {
     "data": [ "01" ],
     "key": "",
     "jsonpath": "humanconflicts.json",

@@ -4,33 +4,28 @@
     "Name": "Tourism/Shoreline",
     "Children": [
       {
-        "Number": "11",
-        "service": "MSPudhu: District_Boundary",
+        "Number": "1",
+        "service": "MSPudhu:District_Boundary",
         "Name": "District_Boundary"
       },
       {
         "Number": "TvsS",
         "service": "MSPudhu:Tourism_vs_Shoreline",
         "Name": "Tourism_vs_Shoreline"
-      },
-      {
-        "Number": "shr",
-        "service": "MSPudhu: Puducherry_1990_2018_Shoreline_Rate",
-        "Name": "Shoreline Rate"
-      },
+      },    
       {
         "Number": "tbs",
-        "service": "MSPudhu: Tourist_Beach_Puducherry",
+        "service": "MSPudhu:Tourist_Beach_Puducherry",
         "Name": "Tourist Beaches"
       },
       {
         "Number": "tbr",
-        "service": "MSPudhu: Beach_Resorts",
+        "service": "MSPudhu:Beach_Resorts",
         "Name": "Beach Resorts"
       },
       {
         "Number": "coastameni",
-        "service": "MSPudhu: Coastal_Amenities",
+        "service": "MSPudhu:Coastal_Amenities",
         "Name": "Coastal_Amenities"
       }
     ]
