@@ -1,6 +1,6 @@
 # Using WMS and WFS Layers in Leaflet
 
-This document provides step-by-step instructions for adding WMS and WFS layers to a Leaflet map using JavaScript and HTML. We will use a free Google Satellite map as the basemap.
+This document provides step-by-step instructions for adding WMS and WFS layers to a Leaflet map using JavaScript and HTML. We will use a free Google Satellite map as the basemap. Please refer to technical documentation for more details.
 
 ## Prerequisites
 - Basic knowledge of JavaScript and HTML.
