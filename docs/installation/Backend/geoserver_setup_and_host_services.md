@@ -1,6 +1,6 @@
 # GeoServer Installation and Dataset Deployment
 
-This document provides step-by-step instructions for installing GeoServer, deploying vector and raster datasets, and hosting API endpoints for WMS and WFS services.
+This document provides step-by-step instructions for installing GeoServer, deploying vector and raster datasets, and hosting API endpoints for WMS and WFS services. The guide also includes steps to set up a GitHub repository to explain how to use the provided datasets.
 
 ## 1. Installing GeoServer
 
