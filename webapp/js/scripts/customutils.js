@@ -1,5 +1,5 @@
 ﻿var layerstoexcludeinfilter = [];
-function createLayerItem(name, service, number,layerJson) {
+function createLayerItem(name, service, number, layerJson) {
     const layerItem = document.createElement('div');
     layerItem.classList.add('layer-item');
     const checkboxholder = document.createElement('div');
@@ -12,35 +12,24 @@ function createLayerItem(name, service, number,layerJson) {
     label.htmlFor = number;
     label.textContent = name;
     const icondivholder = document.createElement('div');
-    //const icon = document.createElement('i');
-    //icon.setAttribute("data-type","fa-table");
-    //icon.classList.add('fas', 'fa-table');
-    //icon.setAttribute('data-type', 'fa-table');
-    //icon.addEventListener('click', () => handleIconClick(icon));
     const icon2 = document.createElement('i');
     icon2.classList.add('fas', 'fa-search-plus');
     icon2.setAttribute('data-type', 'fa-search-plus');
-    icon2.addEventListener('click', () => zoomtolayer(layerJson,number));
-    
+    icon2.addEventListener('click', () => zoomtolayer(layerJson, number));
+
     //icon2.addEventListener('click', () => handleIconClick(icon2));
     checkboxholder.appendChild(checkbox);
     checkboxholder.appendChild(label);
-    if (name.length > 30)
-    {
+    if (name.length > 30) {
         layerItem.appendChild(checkbox);
         layerItem.appendChild(label);
     }
     else
-      layerItem.appendChild(checkboxholder);
-    
-   // icondivholder.appendChild(icon);
+        layerItem.appendChild(checkboxholder);
+
     icondivholder.appendChild(icon2)
     layerItem.appendChild(icondivholder);
-    //if (!layerstoexcludeinfilter.includes(name))
-    //{
-    //        $('#att_layer').append(new Option(name, number));
-    //        $('#sp_layer-select').append(new Option(name, number));        
-    //}
+
     return layerItem;
 }
 
@@ -56,20 +45,20 @@ function zoomtolayer(layersJson, layerId) {
     }
 }
 async function fetchLayerBounds(layerName) {
-    layerName = layerName.replace('MSPudhu:','');
-    layernamefor_matching=layerName;
-    layerName = layerName.replace(/ /g, "%20");              
-    const url=geoserverUrl+"?service=WMS&version=1.1.1&request=GetCapabilities";
+    layerName = layerName.replace('MSPudhu:', '');
+    layernamefor_matching = layerName;
+    layerName = layerName.replace(/ /g, "%20");
+    const url = geoserverUrl + "?service=WMS&version=1.1.1&request=GetCapabilities";
     try {
         const response = await fetch(url);
         const xml = await response.text();
         const parser = new DOMParser();
         const xmlDoc = parser.parseFromString(xml, 'application/xml');
         const layers = xmlDoc.getElementsByTagName('Layer');
-                
+
         for (let layer of layers) {
             const name = layer.getElementsByTagName('Name')[0]?.textContent;
-        //console.log('fetchLayerBounds:  name:  '+ name + '  layerName: ' + layernamefor_matching);
+            //console.log('fetchLayerBounds:  name:  '+ name + '  layerName: ' + layernamefor_matching);
             if (name === layernamefor_matching) {
                 // console.log(layer);
                 const bbox = layer.getElementsByTagName('LatLonBoundingBox')[0];
@@ -87,14 +76,14 @@ async function fetchLayerBounds(layerName) {
 }
 
 
-function createToggleButton(name, number) {   
+function createToggleButton(name, number) {
     const checkboxholder = document.createElement('div');
     const button = document.createElement('div');
     button.classList.add('toggle-button');
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
     checkbox.id = number;
-    checkbox.addEventListener('change', () => handleCheckboxChange(checkbox, name, null, number));    
+    checkbox.addEventListener('change', () => handleCheckboxChange(checkbox, name, null, number));
     const label = document.createElement('label');
     label.htmlFor = number;
     label.textContent = name;
@@ -118,8 +107,8 @@ function createToggleContent() {
     return content;
 }
 var all_type_layers;
-function buildMenu(data, callback) {    
-    all_type_layers=data;
+function buildMenu(data, callback) {
+    all_type_layers = data;
     data.forEach(item => {
         if (item.Children) {
             //console.log(item.Name, item.Number);
@@ -262,13 +251,13 @@ function createCustomLegendItemWithHeader(serviceLayer, text, legenduri) {
     // elem.innerHTML += '<img class="mb2" src=' + legendUrl + '>';
 }
 function deletelegendItem(servicename) {
-    try {        
-            var elem = document.getElementById(servicename);
-            //console.log("legend service: ", servicename + " legend item" + elem);
-            elem.remove();
-            var elemheader = document.getElementById("header_" + servicename);
-            if (elemheader != undefined)
-                elemheader.remove();       
+    try {
+        var elem = document.getElementById(servicename);
+        //console.log("legend service: ", servicename + " legend item" + elem);
+        elem.remove();
+        var elemheader = document.getElementById("header_" + servicename);
+        if (elemheader != undefined)
+            elemheader.remove();
     }
     catch (e) {
 

@@ -1,8 +1,7 @@
 ﻿function hideAllSideDivs() {
-    $('.basemapsidediv, .layersListSideDiv,.legendsidediv,#divprintoptions, #divbasemaps').hide();
+    $('.basemapsidediv, .layersListSideDiv,.legendsidediv, #divbasemaps').hide();
     $('#divutils').show();  
 }
-function openSearch(){ hideAllSideDivs(); $('.search-container').show(); }
 
 // Legend
 function openLegend() { hideAllSideDivs(); $('.legendsidediv').show(); }
@@ -16,17 +15,6 @@ function closeLayersList() { $('#divutils').hide(); $('.layersListSideDiv').hide
 function openBasemaps() { hideAllSideDivs(); $('#divbasemaps').show(); }
 function closeBasemaps() { $('#divbasemaps').hide(); }
 
-function closeModal() {
-    document.getElementById("modalOverlay").style.display = "none";
-}
-
-function openModal(title,event) {
-    event.stopPropagation(); 
-    hideAllSideDivs();    
-    document.getElementById("modalOverlay").style.display = "flex";
-    document.getElementById("download_layer_h").innerText = title;
-    loadCaptcha();
-}
 
 // Read JSON File
 function readTextFile(file, callback) {
@@ -59,11 +47,25 @@ document.addEventListener("DOMContentLoaded", function () {
 function initialRightHideSideBar() {
     var mySlide = $("#narration");
     var width = $(window).width();
-    var sidebar_hide = -0.4 * width;
+    const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
+    const isMediumScreen = window.matchMedia("(min-width: 769px) and (max-width: 1024px)").matches;
+    // Calculate the hiding position
+    const sidebarWidth = mySlide.outerWidth(true); // Include margin if present
+    //const sidebar_hide = isSmallScreen ? -Math.min(sidebarWidth, width) : -0.4 * width;
+    if (isSmallScreen) {
+        // For small screens
+        sidebar_hide = -Math.min(sidebarWidth, width);
+    } else if (isMediumScreen) {
+        // For medium screens like Surface Pro (912px width)
+        sidebar_hide = -sidebarWidth; // Ensures the handle is visible
+    } else {
+        // For large screens
+        sidebar_hide = -0.4 * width;
+    }
+
     mySlide.addClass('closed').animate({ 'right': sidebar_hide }, 500);
     handle.innerHTML = '<span class="vertical-text">I<br/>N<br/>F<br/>O</span>';
 }
-
 function showRightHideSideBar() {
     var mySlide = $("#narration");
     mySlide.removeClass('closed').animate({ 'right': 0 }, 500);
@@ -76,33 +78,3 @@ $(".bmicon").click(function () {
     resetMap();
 });
 
-
-function openPrint()
-{     
-        var d = new Date();
-        openLegend();
-        $(".progressloading ").show();
-        leafletImage(map, function (err, canvas) {
-            var imgData = canvas.toDataURL("image/svg+xml", 1.0);
-            var dimensions = map.getSize();
-            window.jsPDF = window.jspdf.jsPDF;          
-            var doc = new jsPDF('l', 'pt', 'letter')    
-            doc.addImage(imgData, 'PNG', 30, 150, dimensions.x * 0.42, dimensions.y * 0.42);
-
-            html2canvas($("#divLegend"), {
-                onrendered: function (canvas) {
-                    var imgData = canvas.toDataURL('image/png');
-                    const img = new Image();
-                    //debugger
-                    img.src = imgData;
-                    img.onload = () => {
-                        doc.addImage(imgData, 'PNG', 520, 150);                        
-                        doc.save('map.pdf');
-                    };
-                }
-            });
-            doc.setFontSize(11);                   
-            doc.text("Date And Time: " + d.toLocaleString(), 30, 500);           
-            $(".progressloading ").hide();           
-        });
-}

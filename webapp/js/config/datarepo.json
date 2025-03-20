@@ -2,65 +2,62 @@
   "dataRepository": [
     {
       "category": "Boundaries",
-      "items": []     
+      "items": []
     },
     {
       "category": "LULC",
-      "items": [       
-      ]
+      "items": []
     },
     {
       "category": "Water Resources",
-      "items": [        
-      ]
+      "items": []
     },
     {
       "category": "Environment",
-      "items": [       
+      "items": [
         {
-          "name": "Geomorphology"        
+          "name": "Geomorphology"
         },
         {
-          "name": "Precipitation"         
+          "name": "Precipitation"
         },
         {
-          "name": "Humidity"          
+          "name": "Humidity"
         },
         {
-          "name": "Airtemperature"          
+          "name": "Airtemperature"
         },
         {
-          "name": "Wind Speed"        
+          "name": "Wind Speed"
         },
         {
-          "name": "Cloud Cover"          
+          "name": "Cloud Cover"
         },
         {
-          "name": "Pressure"         
+          "name": "Pressure"
         }
-
       ]
     },
     {
       "category": "Ecology",
       "items": [
         {
-          "name": "Mangroves"          
+          "name": "Mangroves"
         },
         {
-          "name": "Coral Reefs"         
+          "name": "Coral Reefs"
         },
         {
           "name": "Biodiversity Hotspots"
         },
         {
-          "name": "Sandy Area"         
+          "name": "Sandy Area"
         },
         {
-          "name": "Fish Potential Sites"          
+          "name": "Fish Potential Sites"
         },
         {
-          "name": "Biological Production Hotspots"         
+          "name": "Biological Production Hotspots"
         }
       ]
     },
@@ -94,9 +91,8 @@
     },
     {
       "category": "Coastal Inundation Risk",
-      "items": [        
-      ]
-    }    
+      "items": []
+    }
   ],
   "status indicators": [
     {
@@ -126,7 +122,7 @@
       "items": []
     }
   ],
-  "conflicts": [   
+  "conflicts": [
     {
       "category": "Ecology vs Human Activities",
       "items": []
@@ -141,22 +137,13 @@
     }
   ],
   "services": [
-     {
-      "category": "Vulnerability",
-      "items": [ ]
-    },
     {
-      "category": "IMD Services",
-      "items": [ ]
+      "category": "Vulnerability",
+      "items": []
     },
     {
       "category": "INCOIS Services",
-      "items": [ ]
-    },
-    {
-      "category": "NCMRWF Services",
-      "items": [ ]
-    } 
+      "items": []
+    }
   ]
-
 }

@@ -1,30 +1,30 @@
-﻿function loadWeather(data, title, tree) {       
+﻿function loadWeather(data, title, tree) {
     $("#divcharts").empty();
-    if (title == "Precipitation") {    
-        loadPuduWeather("./js/chart_data/precipitation.json","precipitation", "divcharts", "Total Rainfall (mm)", "Precipitation (mm)");
+    if (title == "Precipitation") {
+        loadPuduWeather("./js/chart_data/precipitation.json", "precipitation", "divcharts", "Total Rainfall (mm)", "Precipitation (mm)");
     }
-    else if (title == "Humidity") {      
-        loadPuduWeather("./js/chart_data/humidity.json","humidity", "divcharts", 'Humidity (%)', 'Humidity');
+    else if (title == "Humidity") {
+        loadPuduWeather("./js/chart_data/humidity.json", "humidity", "divcharts", 'Humidity (%)', 'Humidity');
     }
-    else if (title == "Airtemperature") {        
-        loadPuduWeather("./js/chart_data/min_temperature.json","mintemperature", "divcharts", 'Degrees (celsius)', 'Mean Min Temperature');
-        loadPuduWeather("./js/chart_data/max_temperature.json","maxtemperature", "divcharts2", 'Degrees (celsius)', 'Mean Max Temperature');        
+    else if (title == "Airtemperature") {
+        loadPuduWeather("./js/chart_data/min_temperature.json", "mintemperature", "divcharts", 'Degrees (celsius)', 'Mean Min Temperature');
+        loadPuduWeather("./js/chart_data/max_temperature.json", "maxtemperature", "divcharts2", 'Degrees (celsius)', 'Mean Max Temperature');
         $("#divcharts2").show();
     }
-    else if (title == "Wind Speed") {       
-        loadPuduWeather("./js/chart_data/windspeed.json","windspeed", "divcharts", 'm/s', 'Wind Speed');
+    else if (title == "Wind Speed") {
+        loadPuduWeather("./js/chart_data/windspeed.json", "windspeed", "divcharts", 'm/s', 'Wind Speed');
     }
-    else if (title == "Pressure") {     
-        loadPuduWeather("./js/chart_data/pressure.json","pressure", "divcharts", 'Pressure (hpa)', 'Pressure');
+    else if (title == "Pressure") {
+        loadPuduWeather("./js/chart_data/pressure.json", "pressure", "divcharts", 'Pressure (hpa)', 'Pressure');
     }
-    else if (title == "Cloud Cover") {      
-        loadPuduWeather("./js/chart_data/total_cloud_cover.json","cloudcover", "divcharts", 'cloud cover', 'Total Cloud Cover');
+    else if (title == "Cloud Cover") {
+        loadPuduWeather("./js/chart_data/total_cloud_cover.json", "cloudcover", "divcharts", 'cloud cover', 'Total Cloud Cover');
     }
     $("#divcharts").show();
     showRightHideSideBar();
 }
 
-function loadWaterquality(data, tree) {   
+function loadWaterquality(data, tree) {
     addBuoys(map);
     // Define chart container mappings
     const chartContainerMap = {
@@ -42,35 +42,28 @@ function loadWaterquality(data, tree) {
     // Call the function with both JSON files
     loadMultipleScatterData(["./js/chart_data/water_quality_status.json", "./js/chart_data/water_quality_chlorophyll.json"], chartContainerMap, paramDetails);
     $("#divcharts, #divcharts2, #divcharts3, #divcharts4").show();
-
     showRightHideSideBar();
 }
 
 function loadMarineOutfall() {
-    //resetMap();
-    //getWfs("MSPudhu:Marine_Outfall", "Marine_Outfall", "SPCB_SPCC like '%%'", marineoutfallStyle);
-    //createLegendItem("MSPudhu:Marine_Outfall", "Marine Outfall", legenduri);
     loadMarineoutfallChart();
-    //loadhighchartsMarineOutfall();
     showRightHideSideBar();
 }
 
-function loadMangrovesStatus()
-{
-    //$('#divmangroveLinks').show();
+function loadMangrovesStatus() {
     $("#divcharts").show();
     loadmangrovesChart();
     showRightHideSideBar();
 }
 
-function loadfisheries() {  
+function loadfisheries() {
     loadfisheriesRevenuechart();
     loadfishLandingchart();
     loadfisherFolkchart();
     showRightHideSideBar();
 }
 
-function loadtourism(){
+function loadtourism() {
     loadtouristChartPudhu();
     loadtourismRevenuechart();
     loadtourismResortCount();
@@ -96,13 +89,9 @@ function addBuoys(map) {
     marker.addTo(map);
 }
 
+function redirectToServiceLinks(data, title, tree) {
 
-function redirectToServiceLinks(data, title, tree)
-{
-    if (title.includes("IMD"))
-        window.open("https://city.imd.gov.in/citywx/city_weather.php?id=43328", "_blank");
-    else if (title.includes("INCOIS"))
+    if (title.includes("INCOIS"))
         window.open("https://incois.gov.in/portal/stormsurge/webgis.jsp", "_blank");
-    else if (title.includes("NCMRWF"))
-        window.open("https://www.ncmrwf.gov.in/", "_blank");
+
 }

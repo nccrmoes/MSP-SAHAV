@@ -32,12 +32,7 @@
         "Number": "6",
         "service": "MSPudhu:Bus_Stations",
         "Name": "Bus_Stations"
-      },
-      {
-        "Number": "06",
-        "service": "MSPudhu:Building_Footprint",
-        "Name": "Building_Footprint"
-      },
+      },     
       {
         "Number": "7",
         "service": "MSPudhu:Dams",
@@ -52,17 +47,7 @@
         "Number": "9",
         "service": "MSPudhu:Divisional_Fire_Office",
         "Name": "Divisional_Fire_Office"
-      },
-      {
-        "Number": "10",
-        "service": "MSPudhu:Government_Quarter",
-        "Name": "Government_Quarter"
-      },
-      {
-        "Number": "11",
-        "service": "MSPudhu:Govt_Office",
-        "Name": "Govt_Office"
-      },
+      },     
       {
         "Number": "12",
         "service": "MSPudhu:Grave",
@@ -72,12 +57,7 @@
         "Number": "13",
         "service": "MSPudhu:GraveYard_Boundary",
         "Name": "GraveYard_Boundary"
-      },
-      {
-        "Number": "14",
-        "service": "MSPudhu:Helipad_Locations",
-        "Name": "Helipad_Locations"
-      },
+      },      
       {
         "Number": "15",
         "service": "MSPudhu:Industry",

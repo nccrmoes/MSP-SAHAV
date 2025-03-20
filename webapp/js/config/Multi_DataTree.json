@@ -74,7 +74,7 @@
   ],
   "MarinePollution": [
     {
-        "Number": "1",
+        "Number": "mof",
         "service": "MSPudhu:Marine_Outfall",
         "Name": "Marine_Outfall"
     }
@@ -331,7 +331,7 @@
           "Name": "District_Boundary"
         },
         {
-          "Number": "2",
+          "Number": "cps",
           "Name": "Coastal_Protection_Structures",
           "service": "MSPudhu:Coastal_Protection_Structures"
         }
