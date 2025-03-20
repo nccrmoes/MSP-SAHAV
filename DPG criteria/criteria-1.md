@@ -1,6 +1,6 @@
 # Relevance to Sustainable Development Goals
 
-**Source** - ![DGP Goals](dpg_goals.jpg)  
+**Source** - ![DGP Goals](dpg_goals.png)  
 
 The Marine Spatial Planning (MSP) platform for Puducherry aims to provide free and open access to geospatial datasets, supporting evidence-driven decision-making for sustainable marine and coastal resource management. By leveraging geospatial analysis and data-driven approaches, the platform facilitates informed policy-making and coordinated actions among stakeholders involved in marine conservation, fisheries management, coastal infrastructure development, and climate adaptation strategies.
 
