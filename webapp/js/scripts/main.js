@@ -1,6 +1,6 @@
-﻿
-var geoserverUrl = "https://marinespatialplanning.in/geoserver/MSPudhu/wms";
-var geoserverWfsUrl = "https://marinespatialplanning.in/geoserver/MSPudhu/ows";
+﻿//replace yourgeoserver.com with your hosted geoserver and MSPudhu can be your Service
+var geoserverUrl = "https://yourgeoserver.com/geoserver/MSPudhu/wms";
+var geoserverWfsUrl = "https://yourgeoserver.com/geoserver/MSPudhu/ows";
 var legenduri = geoserverUrl + "?";
 legenduri += "REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=";
 
