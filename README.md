@@ -1,13 +1,13 @@
 # MSP-SAHAV  
 **Marine Spatial Planning for Puducherry, India**  
-![Marine Spatial Planning](msp.jpg)  
+![Marine Spatial Planning](img_msp.jpg)  
 
 ## Meets Digital Public Good Eligibility Criteria  
 The **Puducherry Geo MSP portal** aligns with multiple **United Nations Sustainable Development Goals (SDGs)**, primarily:  
 
 ### 🌊 SDG 14 - Life Below Water  
 - **Target 14.2**: Sustainably manage and protect marine and coastal ecosystems.  
-- **Target 14.5**: Conserve at least 10% of coastal and marine areas.  
+- **Target 14.5**: Conserve at least 10% of coastal and marine areas.
 
 ### 🌍 SDG 13 - Climate Action  
 - MSP enhances climate resilience by planning for coastal adaptation and mitigating sea-level rise impacts.  
