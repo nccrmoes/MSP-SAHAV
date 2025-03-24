@@ -19,7 +19,6 @@ This document provides instructions on how to use the web application. The appli
 - **Navigation Menu**: Contains options for data repository, status indicators, conflicts and compatibilities, and other services by Ministry of Earth sciences.
 - **Layer List Widget**: Allows users to toggle different map layers.
 - **Legend Widget**: Displays information about active layers.
-- **Additional Tools**: Includes measuring tools, base map selection, and a print option.
 
 ## Features
 ### 1. Map Interaction
@@ -40,12 +39,8 @@ This document provides instructions on how to use the web application. The appli
 - Click any menu item in the sidebar to explore different functionalities:
   - **Data Repository**: Displays available datasets on Puducherry boundaries, water resources, LULC and ther ecological, social and environmental data.
   - **Status Indicators**: Shows status indicators of water quality in puducherry coasts over the years and also the changes in mangroves.
-  - **Conflicts & Compatibilities**: Identifies conflicts of tourism vs shoreline where activities of tourism are allowd along shorelines and other conflicts.
-  - **Services MoES**:  Access coastal inundation risk and other Ministry of Earth Sciences services from NCMRWF and IMD
+  - **Conflicts & Compatibilities**: Identifies conflicts of tourism vs shoreline where activities of tourism are allowd along shorelines and other conflicts. 
 
-### 6. Additional Tools
-- **Measure Tool**: Click the ruler icon to measure distances on the map.
-- **Print Map**: Click the print icon to generate a printable map view.
 
 ### 7. How to Download Maps
 - Users can download map layers by clicking the **Download** option in the submenu.

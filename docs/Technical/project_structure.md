@@ -4,7 +4,7 @@
 📁 Project Root
 ├── 📄 map.html
 ├── 📁 css/
-│   ├── 🎨 theme.css
+│   ├── 🎨 msp_theme.css
 │
 ├── 📁 img/
 │   ├── (Contains image assets)
@@ -20,24 +20,28 @@
 │   │   ├── 📄 socioeconomic.json
 │   │   ├── 📄 tourism_shore.json
 │   │
-│   ├── 📁 leaflet/
-│   │   ├── (Leaflet-related files)
+│   ├── 📁 chart_data/
+│   │   ├── (weather and water quality json files for charts to be downloaded and placed here)
 │   │
 │   ├── 📁 scripts/
-│   │   ├── 📄 main.js
+│   │   ├── 📄 L.Geoserver.js
+│   │   ├── 📄 callbacks.js
 │   │   ├── 📄 common.js
 │   │   ├── 📄 charts.js
-│   │   ├── 📄 call_charts.js
 │   │   ├── 📄 customutils.js
+│   │   ├── 📄 highcharts.js
+│   │   ├── 📄 main.js
 ```
 
 ## Detailed File Descriptions
 
 ### 1. Scripts Folder
+- **`Geoserver.js`** → Leaflet plugin
+- **`callbacks.js`** → intermediate method calls.
 - **`main.js`** → Main JavaScript file from where all other required methods are called.
 - **`common.js`** → Handles toggling of layers, legend, basemaps, and menus.
-- **`charts.js`** → Uses Highcharts to build all types of charts displayed on the webpage. Highcharts can be used freely with attribution.
-- **`call_charts.js`** → Loads charts based on the selected layer.
+- **`highcharts.js`** → Uses Highcharts to build all types of charts displayed on the webpage. Highcharts can be used freely with attribution.
+- **`charts.js`** → Loads charts based on the selected layer.
 - **`customutils.js`** → Dynamically builds the layers list from JSON. Toggles layers and attaches zoom event handlers.
 
 ### 2. Config Folder
@@ -61,7 +65,7 @@
 - **Slow Performance**: Close unnecessary tabs and check browser performance settings.
 
 ## Contact Support
-For further assistance, contact the support team at **support@gmail.com**.
+For further assistance, contact the support team at **nccrmoeschennai@gmail.com**.
 
 ## Conclusion
 This document outlines the essential functionalities of the web application and explains the key JavaScript methods used for managing the interactive map.
