@@ -241,7 +241,7 @@
           "Name": "District_Boundary"
         },
         {
-          "Number": "crp",
+          "Number": "cps",
           "Name": "Coastal_Protection_Structures",
           "service": "MSPudhu:Coastal_Protection_Structures"
         }

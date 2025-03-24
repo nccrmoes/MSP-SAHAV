@@ -23,13 +23,8 @@ html {
     align-items: center;
 }
 
-.indialogo {
-    height: 45px;
-    margin-right: 10px;
-}
-
 .pudhulogo {
-    width: 623px;
+    width: 50%;
 }
 
 .top-bar .user-controls {
@@ -380,8 +375,8 @@ html {
 
 .legendsidediv h5,
 .layersListSideDiv h5,
-.basemapsidediv h5,
-.printsidediv h5 {
+.basemapsidediv h5
+{
     color: #444;
     text-align: left;
     padding: 3px 5px;
@@ -627,9 +622,7 @@ html {
 #narration #contents .image-container div.description {
     margin: 0;
     text-align: left;
-    height: 100%;
-    /*overflow-y: auto;*/
-    font-family: 'Montserrat', sans-serif;
+    height: 100%;  
     font-size: 14px;
 }
 
@@ -702,7 +695,7 @@ html {
         width: 100vw;
         position: absolute;
         right: 0;
-        top: 117px;
+        top:13vh;
         bottom: 0;
         background-color: #f5f5f5;
         /* Optional: Adjust as needed */
@@ -733,15 +726,13 @@ html {
     .navbar-toggler {
         position: absolute;
         top: 10px;
-        left: 10px;
-        /* Adjust as needed */
-        z-index: 10000;
-        /* Keep it above the menu */
+        left: 10px;  
+        z-index: 10000;      
         display: block !important;
     }
 
     .navbar {
-        height: 55px;
+        height: 8vh;
     }
 
     .navbar-expand-lg .navbar-collapse {
@@ -749,12 +740,32 @@ html {
         background-color: white;
         padding: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        left: 0;
+        top: 7vh;    
     }
 
     .navbar-nav {
         justify-content: flex-start;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+    .nav-link{
+        padding: 10px;
+    }
+
+    .pudhulogo {
+      width: 80vw;
+      /*padding:10px;*/
+    }
+    .map-container {
+    position: absolute;
+    top: 13vh;   
+    height: 87vh; 
+    }
+    .map-widget {
+        position: absolute;
+        top: 15vh;
     }
 
     .dropdown-menu {
@@ -780,14 +791,6 @@ html {
     /* Show nested submenu on hover */
     .dropdown-submenu:hover>.dropdown-menu {
         display: block;
-    }
-
-    .pudhulogo {
-        width: 80%;
-    }
-
-    .indialogo {
-        width: 35px;
     }
 
     #divutils {
@@ -832,13 +835,6 @@ html {
 }
 
 
-
-.spndownload {
-    font-size: 16px;
-    color: #007bff;
-    font-weight: bold;
-}
-
 /* Download Button */
 .download-btn {
     width: 100%;
@@ -870,7 +866,6 @@ html {
         transform: scale(1);
     }
 }
-
 .close-btn {
     cursor: pointer;
     font-size: 16px;
@@ -879,28 +874,6 @@ html {
 
 .close-btn:hover {
     color: red;
-}
-
-
-.vertical_line {
-    width: 2px;
-    height: 40px;
-    background-color: #a0a0a0;
-    display: inline-block;
-    margin: 0 10px;
-    opacity: 0.7;
-    display: inline-block;
-}
-
-.logo_section img {
-    padding: 5px;
-}
-
-.logo_section {
-    position: absolute;
-    margin: 10px;
-    display: flex;
-    align-items: center;
 }
 
 .error {

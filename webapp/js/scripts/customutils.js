@@ -168,26 +168,6 @@ function findElementByNumber(data, numberToFind) {
 }
 
 
-function displayFeaturesInTable(features) {
-    var table = '<table><thead><tr>';
-    // Assuming all features have the same properties, get the keys from the first feature
-    var properties = features[0].properties;
-    for (var key in properties) {
-        table += '<th>' + key + '</th>';
-    }
-    table += '</tr></thead><tbody>';
-
-    features.forEach(feature => {
-        table += '<tr>';
-        for (var key in properties) {
-            table += '<td>' + feature.properties[key] + '</td>';
-        }
-        table += '</tr>';
-    });
-
-    table += '</tbody></table>';
-    return table;
-}
 
 function setParent(el, newParent) {
     newParent.appendChild(el);
@@ -224,14 +204,6 @@ function createLegendItem(serviceLayer, text, legenduri) {
 
 }
 
-function createCustomLegendItem(serviceLayer, text, legenduri2) {
-    var legendUrl = legenduri2 + serviceLayer;
-    var elem = document.createElement('div');
-    elem.setAttribute("id", serviceLayer);
-    legendUrl = legendUrl.replace(/ /g, "%20")
-    elem.innerHTML += '<img src=' + legendUrl + '>';
-    setParent(elem, legendDiv);
-}
 
 function createCustomLegendItemWithHeader(serviceLayer, text, legenduri) {
     var legendUrl = legenduri + serviceLayer;

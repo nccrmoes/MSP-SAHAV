@@ -1,6 +1,6 @@
 ﻿//replace yourgeoserver.com with your hosted geoserver and MSPudhu can be your Service
-var geoserverUrl = "https://yourgeoserver.com/geoserver/MSPudhu/wms";
-var geoserverWfsUrl = "https://yourgeoserver.com/geoserver/MSPudhu/ows";
+var geoserverUrl = "https://marinespatialplanning.in/geoserver/MSPudhu/wms";
+var geoserverWfsUrl = "https://marinespatialplanning.in/geoserver/MSPudhu/ows";
 var legenduri = geoserverUrl + "?";
 legenduri += "REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=";
 
@@ -284,9 +284,9 @@ function handleCheckboxChange(checkbox, name, service, number) {
 
 
 //refer to layers' number in multi_dataTree.json for layers_with_CustomLegends
-var layers_with_CustomLegends = ["lulc", "crz", "geomorph", "biohotspots", "crp", "vuln", "tourism", "coastameni", "mbc", "TvsS", "TvsF", "cps", "mof"];
+var layers_with_CustomLegends = ["lulc", "geomorph", "biohotspots", "cps", "vuln", "coastameni", "TvsS", "TvsF", "cps", "mof"];
 
-//ist of geoserver services that are not transparent. other layers have defult transparancy defined.
+//ist of geoserver services that are not transparent. other layers have defult transparancy.
 var layers_not_transparent = [{ "name": "MSPudhu:Marine_Outfall" }, { "name": "MSPudhu:VillageNames" }, { "name": "MSPudhu:Tourism_Activity" }, { "name": "MSPudhu:Crab_locations" }, { "name": "MSPudhu:Archeological_Site" }, { "name": "MSPudhu:Coastal_Protection_Structures" }, { "name": "MSPudhu:CRZ" }, { "name": "MSPudhu:Rock_Revetment_points" }, { "name": "MSPudhu:Groynes" }, { "name": "MSPudhu:Lighthouse" }, { "name": "MSPudhu:Jetty or Breakwater" }, { "name": "MSPudhu:Placenames" }, { "name": "MSPudhu:Port" }, { "name": "MSPudhu:Port Area" }, { "name": "MSPudhu:Railway Line" }, { "name": "MSPudhu:Lines" }, { "name": "MSPudhu:Points" }, { "name": "MSPudhu:VillageNames" }, { "name": "MSPudhu:SurveyPlotNumbers" }, { "name": "MSPudhu:Road" }, { "name": "MSPudhu:Hazard_Line" }, { "name": "MSPudhu:Multi_Hazard_Line" }, { "name": "MSPudhu:Government_Quarter" }, { "name": "MSPudhu:Govt_Office" }, { "name": "MSPudhu:Grave" }, { "name": "MSPudhu:Dams" }, { "name": "MSPudhu:Park_Area" }, { "name": "MSPudhu:Bus_Stations" }, { "name": "MSPudhu:Banks" }, { "name": "MSPudhu:Major_Road_Network" }, { "name": "MSPudhu:Major_Landmarks" }, { "name": "MSPudhu:Power_Mainline" }, { "name": "MSPudhu:Open_Drain" }, { "name": "MSPudhu:Religious_Place" }, { "name": "MSPudhu:Pump_House_Area" }, { "name": "MSPudhu:Playground_Area" }, { "name": "MSPudhu:Rail_Culvert" }, { "name": "MSPudhu:Railway_Station" }, { "name": "MSPudhu:Police_Stations" }, { "name": "MSPudhu:Road_Bridges" }, { "name": "MSPudhu:Veterinary_Hospitals" }, { "name": "MSPudhu:Stadium_Locations" }, { "name": "MSPudhu:Substation_Locations" }, { "name": "MSPudhu:Traffic_Signal_Locations" }, { "name": "MSPudhu:Under_water_cable-UT_Pondy" }, { "name": "MSPudhu:Underwater_Cable-Under_Construction" }, { "name": "MSPudhu:Bathymetry_10m" }, { "name": "MSPudhu:Sandy_Beach" }, { "name": "MSPudhu:Sandy_Spit" }, { "name": "MSPudhu:River" }, { "name": "MSPudhu:District_Boundary" }, { "name": "MSPudhu:Corals" }, { "name": "MSPudhu:Biodiversity_Hotspots" }, { "name": "MSPudhu:Turtle_Nesting_Ground" }, { "name": "MSPudhu:Tourism_Boating" }, { "name": "MSPudhu:Tourist_Beach_Puducherry" }, { "name": "MSPudhu:Beach_Resorts" }, { "name": "MSPudhu:Coastal_Amenities" }, { "name": "MSPudhu:Scuba_Diving_Locations" }, { "name": "MSPudhu:Sports_Activities" }, { "name": "MSPudhu:Sand_Dune" }, { "name": "MSPudhu:SandSpit" }];
 
 
