@@ -1,6 +1,6 @@
 ﻿//replace yourgeoserver.com with your hosted geoserver and MSPudhu can be your Service
-var geoserverUrl = "https://marinespatialplanning.in/geoserver/MSPudhu/wms";
-var geoserverWfsUrl = "https://marinespatialplanning.in/geoserver/MSPudhu/ows";
+var geoserverUrl = "https://yourdomain.in/geoserver/MSPudhu/wms"; //MSPudhu is name of the workspace. it can be anything
+var geoserverWfsUrl = "https://yourdomain.in/geoserver/MSPudhu/ows";
 var legenduri = geoserverUrl + "?";
 legenduri += "REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER=";
 
@@ -137,7 +137,7 @@ $(document).ready(function () {
         });
     });
 
-    $(".map-tool,.bubble-item").each(function () {
+    $(".map-tool").each(function () {
         $(this).click(function () {
             let action = $(this).data("action");
             if (typeof window[action] === "function") {
