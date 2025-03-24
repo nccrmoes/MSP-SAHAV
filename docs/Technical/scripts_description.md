@@ -51,8 +51,3 @@
 ### 8. Legend Tool
 - Describes the map layer contents.
 - Color-coded labels or icons represent each element type shown on the map.
-
-### 9. Print Tool
-- this leaflet plugin is initialized when the map is ready.
-- Prints the current map along with all selected layers and the legend.
-- Uses the open-source `leaflet.browser.print.js` plugin.
