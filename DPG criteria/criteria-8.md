@@ -55,10 +55,9 @@ The platform adheres to global open data and software standards, ensuring intero
 
 ### Adopted Standards
 
-- **Security:** HTTPS, SSL, SSH, OWASP security frameworks.
-- **Web Technologies:** HTML5, CSS3, JavaScript (ES6+), Python, R, Node.js.
-- **API Standards:** RESTful APIs using OpenAPI specifications.
-- **Data Formats:** GeoJSON, CSV, GeoTIFF, Cloud-Optimized GeoTIFF (COG).
+- **Security:** HTTPS, SSL security frameworks.
+- **Web Technologies:** HTML5, CSS, JavaScript.
+- **Data Formats:** GeoJSON, Vector Shape Files, GeoTIFF, Cloud-Optimized GeoTIFF (COG).
 
 ### Open-Source Development & Collaboration
 
