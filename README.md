@@ -1,5 +1,5 @@
 # MSP-SAHAV  
-**Marine Spatial Planning for Puducherry, India**  
+**Marine Spatial Planning for Puducherry, India** [About](docs/Manual.docx)
 ![Marine Spatial Planning](img_msp.jpg)  
 
 ## Meets Digital Public Good Eligibility Criteria  
@@ -37,14 +37,36 @@ This repository provides a **template** for hosting GIS layers using **Leaflet**
 
 ---
 
-## Prerequisites  
-- A web server (e.g., Python HTTP server, VS Code Live Server, or IIS for deployment).  
-- [GeoServer](https://geoserver.org/) installed and running.  
+## ✅ Prerequisites
+
+To set up and work with this project, you’ll need the following:
+
+- A web server (e.g., Python HTTP server, VS Code Live Server, or IIS for deployment).
+- [GeoServer](https://geoserver.org/) installed and running.
+- Basic understanding of **hosting vector and raster files in GeoServer**  
+  ➤ Refer to [GeoServer Setup & Hosting Guide](docs/Installation/Backend/geoserver_setup_and_host_services.md)
 - [QGIS](https://qgis.org/en/site/) for styling layers (optional).  
-- Basic knowledge of **JavaScript, HTML, and CSS**.  
-- Understanding of **hosting vector and raster files in GeoServer**. (Follow instructions in `/Backend/geoserver_setup_and_host_services.md`.)  
+  ➤ For styling vector/raster layers, see the [QGIS Styling Guide](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/vector_properties.html#symbology-properties)
+- Basic knowledge of **JavaScript, HTML, and CSS**
+- Familiarity with the [Leaflet](https://leafletjs.com/reference.html) JavaScript API  
+  ➤ See [Guide to Consuming GeoServer APIs](docs/Installation/Frontend/consume_geoserver_apis.md)
 
 ---
+
+## 📚 Documentation
+
+Our project includes well-organized documentation, divided into technical and user-facing content:
+
+### 🔧 Technical Documentation
+- [Project Structure](docs/Technical/project-structure.md)
+- [Web Application Design](docs/Technical/menu_configuration.md)
+- [Technical Scripts Description](docs/Technical/scripts_description.md)
+
+### 👤 User Documentation
+- [Webpage User Guide](docs/User/Webpage_User_Doc.md)
+
+For complete insights into the system setup, usage, and internal workings, explore the documents above.
+
 
 ## Installation  
 
