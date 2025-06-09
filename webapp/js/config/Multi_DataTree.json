@@ -61,7 +61,7 @@
   "Lulc": [
     {
       "Number": "lulc",
-      "service": "MSPudhu:Pondy_lulc",
+      "service": "MSPudhu:LULC_Pondy",
       "Name": "Land Use"
     }
   ],
@@ -74,9 +74,9 @@
   ],
   "MarinePollution": [
     {
-        "Number": "mof",
-        "service": "MSPudhu:Marine_Outfall",
-        "Name": "Marine_Outfall"
+      "Number": "mof",
+      "service": "MSPudhu:Marine_Outfall",
+      "Name": "Marine_Outfall"
     }
   ],
   "Corals": [
@@ -229,7 +229,7 @@
         }
       ]
     }
-  ],  
+  ],
   "Coastal Protection Structures": [
     {
       "Number": "01",
@@ -247,7 +247,7 @@
         }
       ]
     }
-  ],  
+  ],
   "Archeological Sites": [
     {
       "Number": "01",
@@ -349,23 +349,13 @@
           "Name": "District_Boundary"
         },
         {
-          "Number": "0",
-          "Name": "Hazard_Line",
-          "service": "MSPudhu:Hazard_Line"
-        },
-        {
-          "Number": "1",
-          "Name": "Multi_Hazard_Line",
-          "service": "MSPudhu:Multi_Hazard_Line"
-        },
-        {
-          "Number": "2",
-          "Name": "Tsunami_Water_Level",
-          "service": "MSPudhu:Tsunami_Water_Level"
+          "Number": "vuln",
+          "service": "MSPudhu:CIRA_PY_final",
+          "Name": "Vulnerability"
         }
       ]
     }
-  ],  
+  ],
   "conflict_fish_tour": [
     {
       "Number": "01",
@@ -400,11 +390,16 @@
           "Name": "District_Boundary"
         },
         {
-          "Number": "vuln",
-          "service": "MSPudhu:CIRA_PY_final",
-          "Name": "Vulnerability"
+          "Number": "1",
+          "Name": "Multi_Hazard_Line",
+          "service": "MSPudhu:Multi_Hazard_Line"
+        },
+        {
+          "Number": "2",
+          "Name": "Tsunami_Water_Level",
+          "service": "MSPudhu:Tsunami_Water_Level"
         }
       ]
     }
-  ]  
+  ]
 }
