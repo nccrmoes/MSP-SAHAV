@@ -69,7 +69,7 @@
     {
       "Number": "geomorph",
       "service": "MSPudhu:Geomorphology_Clipped",
-      "Name": "Land Use"
+      "Name": "Geomorphology"
     }
   ],
   "MarinePollution": [
